@@ -1,0 +1,66 @@
+Microsoft Windows [Versión 10.0.18362.657]
+(c) 2019 Microsoft Corporation. Todos los derechos reservados.
+
+C:\Users\Admin>cd desktop
+-----------------------------------
+C:\Users\Admin\Desktop>cd "Repositorio_Alma _2020_"
+-----------------------------------------------------------------
+
+C:\Users\Admin\Desktop\Repositorio_Alma _2020_>git status
+-----------------------------------------------------------------------
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Proyecto.css
+        Tabla - calificaciones.html
+        prueba.html
+        prueba2.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\Admin\Desktop\Repositorio_Alma _2020_>git add .
+---------------------------------------------------------------------
+
+C:\Users\Admin\Desktop\Repositorio_Alma _2020_>git status
+-----------------------------------------------------------------------
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Proyecto.css
+        new file:   Tabla - calificaciones.html
+        modified:   index.html
+        new file:   prueba.html
+        new file:   prueba2.html
+
+
+C:\Users\Admin\Desktop\Repositorio_Alma _2020_>git commit -m "Principales archivos para el proyecto"
+-----------------------------------------------------------------------------------------------------------------------
+[master 4010349] Principales archivos para el proyecto
+ 5 files changed, 185 insertions(+), 10 deletions(-)
+ create mode 100644 Proyecto.css
+ create mode 100644 Tabla - calificaciones.html
+ create mode 100644 prueba.html
+ create mode 100644 prueba2.html
+
+C:\Users\Admin\Desktop\Repositorio_Alma _2020_>git push
+----------------------------------------------------------------------------------------
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 2.71 KiB | 397.00 KiB/s, done.
+Total 7 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/almasofiatorresserratos/Repositorio_Alma_2020_.git
+   e95c4d1..4010349  master -> master
+
+C:\Users\Admin\Desktop\Repositorio_Alma _2020_>

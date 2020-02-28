@@ -1,12 +1,14 @@
 nav {
   background-color: #0B3B17; height: 25px; width: 1254px;
+  margin-left: 30px;
 }
 a {
   color: #58FAF4;
 }
 aside {
   display: inline-block;
-  background-image: url(""); height: 560px; width: 300px;
+  background-image: url("https://imagenesdepaisajesnaturales.net/wp-content/uploads/2016/11/imagenes-de-paisajes-con-movimiento-bosque.gif"); height: 560px; width: 300px;
+  margin-left: 30px;
 }
 main {
   display: inline-block;
@@ -31,14 +33,14 @@ footer {
   color : #0B3B2E;
   align: center;
   font-size: 40px;
-  font-family:'Chiller'
+  font-family:'Gabriola'
 }
 .video {
   margin-left: 100px;
   width: 200px;
   color : #2EFE2E;
   font-size: 30px;
-  font-family:'Footlight MT'
+  font-family:'Gabriola'
 }
 .youtube {
   height: 100px;
@@ -48,5 +50,26 @@ footer {
 .Libro1 {
   color: #4B088A;
   font-size: 20px;
-  font-family:''
+  font-family:'Gabriola'
+}
+.Libro2 {
+  color: #0174DF;
+  font-size: 20px;
+  font-family:'Gabriola'
+}.Libro3 {
+  color: #0B614B;
+  font-size: 20px;
+  font-family:'Gabriola'
+}.Libro4 {
+  color: #8A4B08;
+  font-size: 20px;
+  font-family:'Gabriola'
+}.Libro5 {
+  color: #0B4C5F;
+  font-size: 20px;
+  font-family:'Gabriola'
+}.Libro6 {
+  color: #29088A;
+  font-size: 20px;
+  font-family:'Gabriola'
 }
