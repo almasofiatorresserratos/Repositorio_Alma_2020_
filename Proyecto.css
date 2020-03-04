@@ -1,14 +1,14 @@
 nav {
   background-color: #0B3B17; height: 25px; width: 1254px;
-  margin-left: 30px;
+  margin-left: 40px;
 }
 a {
   color: #58FAF4;
 }
 aside {
   display: inline-block;
-  background-image: url("https://imagenesdepaisajesnaturales.net/wp-content/uploads/2016/11/imagenes-de-paisajes-con-movimiento-bosque.gif"); height: 560px; width: 300px;
-  margin-left: 30px;
+  background-image: url("https://i.pinimg.com/originals/55/4e/3a/554e3ab1bb4a58ed1894d0d75f18ffba.jpg"); height: 560px; width: 300px;
+  margin-left: 40px;
 }
 main {
   display: inline-block;
@@ -21,12 +21,13 @@ section {
   margin-left: 10px;
 }
 article {
-  background-color: #F781F3; height: 210px; width: 600px;
+    background-image: url("https://images.gr-assets.com/hostedimages/1559398556ra/27602800.gif"); height: 210px; width: 600px;
   margin-left: 100px;
   margin-top: 70px;
 }
 footer {
   background-color: #380B61; height: 25px; width: 1254px;
+  margin-left: 40px;
 }
 .cronicas {
   margin-left: 300px;
@@ -36,9 +37,9 @@ footer {
   font-family:'Gabriola'
 }
 .video {
-  margin-left: 100px;
+  margin-left: 50px;
   width: 200px;
-  color : #2EFE2E;
+  color : #170B3B;
   font-size: 30px;
   font-family:'Gabriola'
 }
