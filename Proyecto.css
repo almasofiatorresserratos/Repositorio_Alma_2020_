@@ -1,5 +1,5 @@
 nav {
-  background-color: #0B3B17; height: 25px; width: 1254px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRDOmpV1FR_CvzqJ4jh6LVXP9G8LsRTMxugCtdbZGYe5sc1909W"); height: 25px; width: 1254px;
   margin-left: 40px;
 }
 a {
@@ -12,7 +12,7 @@ aside {
 }
 main {
   display: inline-block;
-  background-image: url("https://images.pexels.com/photos/2078266/pexels-photo-2078266.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"); height: 560px; width: 950px;
+  background-image: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/organic-green-abstract-watercolor-wash-irina-sztukowski.jpg"); height: 560px; width: 950px;
 }
 
 section {
@@ -30,10 +30,10 @@ footer {
   margin-left: 40px;
 }
 .cronicas {
-  margin-left: 300px;
+  margin-left: 150px;
   color : #0B3B2E;
   align: center;
-  font-size: 40px;
+  font-size: 30px;
   font-family:'Gabriola'
 }
 .video {
@@ -44,9 +44,9 @@ footer {
   font-family:'Gabriola'
 }
 .youtube {
-  height: 100px;
-  width: 150px;
-  margin-left: 90px;
+  height: 300px;
+  width: 210px;
+  margin-left: 10px;
 }
 .Libro1 {
   color: #4B088A;
@@ -57,20 +57,37 @@ footer {
   color: #0174DF;
   font-size: 20px;
   font-family:'Gabriola'
-}.Libro3 {
+}
+.Libro3 {
   color: #0B614B;
   font-size: 20px;
   font-family:'Gabriola'
-}.Libro4 {
+}
+.Libro4 {
   color: #8A4B08;
   font-size: 20px;
   font-family:'Gabriola'
-}.Libro5 {
+}
+.Libro5 {
   color: #0B4C5F;
   font-size: 20px;
   font-family:'Gabriola'
-}.Libro6 {
+}
+.Libro6 {
   color: #29088A;
   font-size: 20px;
   font-family:'Gabriola'
+}
+.titulo {
+  color: #81F79F;
+  font-size: 27px;
+  font-family:'Gabriola';
+  margin-left: 500px;
+  margin-top: 0px;
+}
+.nav {
+padding-bottom: 10px;
+}
+.texto {
+text-align: center;
 }
