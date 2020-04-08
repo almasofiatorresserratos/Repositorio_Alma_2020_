@@ -13,6 +13,7 @@ aside {
 }
 main {
   display: inline-block;
+  margin-top: 0px;
   background-image: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/organic-green-abstract-watercolor-wash-irina-sztukowski.jpg"); height: 560px; width: 950px;
 }
 
@@ -27,7 +28,7 @@ article {
   margin-top: 70px;
 }
 footer {
-  background-color: #380B61; height: 25px; width: 1254px;
+  background-image: url("https://ak9.picdn.net/shutterstock/videos/1023490009/thumb/1.jpg"); height: 100px; width: 1254px;
   margin-left: 40px;
 }
 .cronicas {
@@ -103,7 +104,7 @@ padding-bottom: 10px;
 }
 .deljuego {
   margin-left: 20px;
-  margin-top: 20px;
+  margin-top: 0px;
   height: 180px;
   width: 270px;
   display: inline-block
@@ -115,4 +116,19 @@ padding-bottom: 10px;
   margin-bottom: 4px;
   height: 200px;
   width: 900px;
+}
+.petition {
+  margin-left: 15px;
+  margin-bottom: 7px;
+  margin-top: 1px;
+  color: #170B3B;
+  font-size: 30px;
+  font-family:'Gabriola';
+}
+.zorro {
+  margin-left: 1100px;
+  margin-top: 4px;
+  margin-bottom: 10px;
+  height: 18px;
+  width: 14px;
 }
