@@ -30,6 +30,7 @@ article {
 footer {
   background-image: url("https://ak9.picdn.net/shutterstock/videos/1023490009/thumb/1.jpg"); height: 100px; width: 1254px;
   margin-left: 40px;
+  padding-right: 10px;
 }
 .cronicas {
   margin-left: 150px;
@@ -125,10 +126,7 @@ padding-bottom: 10px;
   font-size: 30px;
   font-family:'Gabriola';
 }
-.zorro {
-  margin-left: 1100px;
-  margin-top: 4px;
-  margin-bottom: 10px;
-  height: 18px;
-  width: 14px;
+.patos {
+  margin-left: 0px;
+  margin-bottom: 0px;
 }
