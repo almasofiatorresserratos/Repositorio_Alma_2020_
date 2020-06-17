@@ -25,8 +25,8 @@ section {
 }
 article {
   background-color: #0B614B; height: 210px; width: 600px;
-  margin-left: 200px;
-  margin-top: 70px;
+  margin-left: 500px;
+  margin-top: 50px;
 }
 footer {
   background-image: url("https://besthqwallpapers.com/Uploads/27-9-2019/106262/thumb2-purple-paper-texture-paper-background-paper-texture-with-pattern-purple-creative-background.jpg"); height: 100px; width: 1240px;
@@ -34,10 +34,10 @@ footer {
   padding-right: 10px;
 }
 .cronicas {
-  margin-left: 150px;
-  color : #0B3B2E;
+  margin-left: 5px;
+  color : #A9F5D0;
   align: center;
-  font-size: 30px;
+  font-size: 25px;
   font-family:'Gabriola'
 }
 .video {
@@ -96,12 +96,12 @@ padding-bottom: 10px;
   color: #81F79F;
   font-size: 15px;
   font-family:'Gabriola';
+  align-content: center;
 }
 .juego > h1 {
   margin-top: 0px;
 }
 .cuervo {
-  margin-left: 0px;
   margin-top: 10px;
 }
 .deljuego {
@@ -132,4 +132,278 @@ margin-top: 10px;
 }
 .contenedor {
   display: flex;
+}
+/* The Modal (background) */
+.modal {
+ display: none; /* Hidden by default */
+ position: fixed; /* Stay in place */
+ z-index: 1; /* Sit on top */
+ left: 0;
+ top: 0;
+ width: 100%; /* Full width */
+ height: 100%; /* Full height */
+ overflow: auto; /* Enable scroll if needed */
+ background-color: rgb(0,0,0); /* Fallback color */
+ background-image: url("https://1.bp.blogspot.com/-YLFKCQ5jUQ8/VXj48GcQVsI/AAAAAAAAGtw/4h8v9akUsT8/s1600/bosque%2B1.jpg"); /* Black w/ opacity */
+ background-size: cover;
+}
+/* Modal Content/Box */
+.modal-content {
+ background-image: url("https://image.freepik.com/free-photo/green-paper-texture-background_55716-850.jpg");
+ margin: 15% auto; /* 15% from the top and centered */
+ padding: 20px;
+ border: 1px solid #5F4C0B;
+ width: 60%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+ color: #aaa;
+ float: right;
+ font-size: 28px;
+ font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+ color: black;
+ text-decoration: none;
+ cursor: pointer;
+}
+.bmodal {
+  background-color: transparent;
+  margin-left: 25px;
+  border: 0px;
+}
+
+
+/* The Modal (background) */
+.modal2 {
+ display: none; /* Hidden by default */
+ position: fixed; /* Stay in place */
+ z-index: 1; /* Sit on top */
+ left: 0;
+ top: 0;
+ width: 100%; /* Full width */
+ height: 100%; /* Full height */
+ overflow: auto; /* Enable scroll if needed */
+ background-color: rgb(0,0,0); /* Fallback color */
+ background-image: url("https://i.pinimg.com/originals/e3/6f/89/e36f896466a44e5b291da433cfaba649.png"); /* Black w/ opacity */
+ background-size: cover;
+}
+/* Modal Content/Box */
+.modal-content2 {
+ background-image: url("https://image.freepik.com/free-photo/texture-crumpled-light-blue-wrapping-paper-closeup-turquoise-old-background_113767-2415.jpg");
+ margin: 15% auto; /* 15% from the top and centered */
+ padding: 20px;
+ border: 1px solid #5F4C0B;
+ width: 60%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+ color: #aaa;
+ float: right;
+ font-size: 28px;
+ font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+ color: black;
+ text-decoration: none;
+ cursor: pointer;
+}
+.bmodal {
+  background-color: transparent;
+  margin-left: 25px;
+  border: 0px;
+}
+
+
+/* The Modal (background) */
+.modal3 {
+ display: none; /* Hidden by default */
+ position: fixed; /* Stay in place */
+ z-index: 1; /* Sit on top */
+ left: 0;
+ top: 0;
+ width: 100%; /* Full width */
+ height: 100%; /* Full height */
+ overflow: auto; /* Enable scroll if needed */
+ background-color: rgb(0,0,0); /* Fallback color */
+ background-image: url("https://s2.thingpic.com/images/2t/49rH1fgtA6NMJ9TNjPk5BfVw.jpeg"); /* Black w/ opacity */
+ background-size: cover;
+}
+/* Modal Content/Box */
+.modal-content3 {
+ background-image: url("https://media.istockphoto.com/photos/crumpled-light-blue-paper-texture-picture-id890616876");
+ margin: 15% auto; /* 15% from the top and centered */
+ padding: 20px;
+ border: 1px solid #5F4C0B;
+ width: 60%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+ color: #aaa;
+ float: right;
+ font-size: 28px;
+ font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+ color: black;
+ text-decoration: none;
+ cursor: pointer;
+}
+.bmodal {
+  background-color: transparent;
+  margin-left: 5px;
+  border: 0px;
+}
+
+
+/* The Modal (background) */
+.modal4 {
+ display: none; /* Hidden by default */
+ position: fixed; /* Stay in place */
+ z-index: 1; /* Sit on top */
+ left: 0;
+ top: 0;
+ width: 100%; /* Full width */
+ height: 100%; /* Full height */
+ overflow: auto; /* Enable scroll if needed */
+ background-color: rgb(0,0,0); /* Fallback color */
+ background-image: url("https://i.pinimg.com/originals/02/95/28/02952836fce10e314c4e2b0f67645706.jpg"); /* Black w/ opacity */
+ background-size: cover;
+}
+/* Modal Content/Box */
+.modal-content4 {
+ background-image: url("https://st2.depositphotos.com/2850099/6266/i/950/depositphotos_62665247-stock-photo-old-green-paper-texture-or.jpg");
+ margin: 15% auto; /* 15% from the top and centered */
+ padding: 20px;
+ border: 1px solid #5F4C0B;
+ width: 60%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+ color: #aaa;
+ float: right;
+ font-size: 28px;
+ font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+ color: black;
+ text-decoration: none;
+ cursor: pointer;
+}
+.bmodal {
+background-color: #0B6138;
+ color: #A9F5A9;
+ font-size:15px;
+ font-family: Gabriola;
+ border-radius: 5px;
+ border-color: #0B6138;
+ margin-left: 25px;
+}
+
+
+/* The Modal (background) */
+.modal5 {
+ display: none; /* Hidden by default */
+ position: fixed; /* Stay in place */
+ z-index: 1; /* Sit on top */
+ left: 0;
+ top: 0;
+ width: 100%; /* Full width */
+ height: 100%; /* Full height */
+ overflow: auto; /* Enable scroll if needed */
+ background-color: rgb(0,0,0); /* Fallback color */
+ background-image: url("https://4yourdesktop.files.wordpress.com/2016/08/x7w3dbq.jpg"); /* Black w/ opacity */
+ background-size: cover;
+}
+/* Modal Content/Box */
+.modal-content5 {
+ background-image: url("https://image.freepik.com/free-photo/green-handmade-paper-texture-background_1373-165.jpg");
+ margin: 15% auto; /* 15% from the top and centered */
+ padding: 20px;
+ border: 1px solid #5F4C0B;
+ width: 60%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+ color: #aaa;
+ float: right;
+ font-size: 28px;
+ font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+ color: black;
+ text-decoration: none;
+ cursor: pointer;
+}
+.bmodal {
+background-color: #0B6138;
+ color: #A9F5A9;
+ font-size:15px;
+ font-family: Gabriola;
+ border-radius: 5px;
+ border-color: #0B6138;
+ margin-left: 25px;
+}
+
+
+/* The Modal (background) */
+.modal6 {
+ display: none; /* Hidden by default */
+ position: fixed; /* Stay in place */
+ z-index: 1; /* Sit on top */
+ left: 0;
+ top: 0;
+ width: 100%; /* Full width */
+ height: 100%; /* Full height */
+ overflow: auto; /* Enable scroll if needed */
+ background-color: rgb(0,0,0); /* Fallback color */
+ background-image: url("https://culturafotografica.es/wp-content/uploads/2016/04/24641937989_5fce3713f1_h_Web.jpg"); /* Black w/ opacity */
+ background-size: cover;
+}
+/* Modal Content/Box */
+.modal-content6 {
+ background-image: url("https://image.freepik.com/foto-gratis/fondo-textura-acuarela-purpura-rosa_1083-169.jpg?1");
+ margin: 15% auto; /* 15% from the top and centered */
+ padding: 20px;
+ border: 1px solid #5F4C0B;
+ width: 60%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+ color: #aaa;
+ float: right;
+ font-size: 28px;
+ font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+ color: black;
+ text-decoration: none;
+ cursor: pointer;
+}
+.bmodal {
+background-color: #0B6138;
+ color: #A9F5A9;
+ font-size:15px;
+ font-family: Gabriola;
+ border-radius: 5px;
+ border-color: #0B6138;
+ margin-left: 25px;
 }

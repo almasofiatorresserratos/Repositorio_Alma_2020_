@@ -1,60 +1,122 @@
 <!DOCTYPE html>
 
 <html>
-<body background = "https://www.photohdx.com/images/2017/04/dark-green-grungy-background.jpg">
+
   <head>
 <!-- informacion -->
   <title>Mi primera pagina</title>
-        <link href="Proyecto.css" rel="stylesheet">
-        <script type="./Proyecto.js"></script>
+        <link rel="stylesheet" href="Proyecto.css">
+        <script src="./Proyecto.js"></script>
     </head>
+<body background = "https://www.photohdx.com/images/2017/04/dark-green-grungy-background.jpg">
 
-    <body>
       <nav class= "nav">
           <a class="titulo">
-            Cronicas de la Prehistoria
+            Crónicas de la Prehistoria
           </a>
       </nav>
     <div class="contenedor">
       <div class="aside">
-          <div class="video"> Presiona sobre la imagen para ver video "Cronicas de la Prehistoria"</div>
+          <div class="video"> Presiona sobre la imagen para ver video "Crónicas de la Prehistoria"</div>
           <a target="_blank" href= "https://www.youtube.com/watch?v=WF5xPN0CQiM"><img class="youtube" src= "https://i.pinimg.com/originals/28/f2/68/28f2681661342bb38678242d18ce2404.jpg"></a>
       </div>
       <main>
         <section>
       <div style="display: inline-block;">
-          <a href = "https://salamandra.info/libro/hermano-lobo-cronicas-prehistoria"><img src = "https://www.gratistodo.com/wp-content/uploads/2017/08/Lobos-Wolf-18.gif" height=95 width="145"></a>
-          <p class="Libro1" style= "color : #4B088A" align= center>
-          Hermano Lobo </p>
+          <img src = "https://www.gratistodo.com/wp-content/uploads/2017/08/Lobos-Wolf-18.gif" height=95 width="145">
+          <p></p>
+          <button id="myBtn" onclick="mostrar();" class="bmodal">Hermano Lobo</button>
+
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+
+              <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close" onclick="ocultar();">&times;</span>
+                <p>Hace miles de años, un niño llamado Torak vive feliz en el Bosque, hasta el día en que un oso gigante ataca e hiere a su padre. Moribundo, este le ordena que se dirija al Norte para encontrar la Montaña del Espíritu del Mundo, antes de que aparezca en el cielo la Luna del Sauce Rojo. Pero Torak tiene solo doce años, desconoce qué camino tomar y no puede acudir a nadie en busca de ayuda. Sin embargo, perseguido por el enorme oso, el niño emprende el viaje acompañado de un lobezno que ha encontrado a la orilla del río. Pronto se une a ellos Renn, una niña perteneciente al Clan del Cuervo, y juntos vivirán excitantes aventuras que pondrán a prueba su valor, su habilidad como cazadores, su inteligencia y su naciente amistad.</p>
+              </div>
+            </div>
       </div>
       <div style="display: inline-block;">
-          <a  href = "https://salamandra.info/libro/clan-foca-cronicas-prehistoria"><img src = "https://reygif.com/media/foca-nadando-5894.gif" height=95 width="145"></a>
-          <p class="Libro2" style= "color : #0174DF" align= center>
-          Clan de la Foca </p>
+          <img src = "https://reygif.com/media/foca-nadando-5894.gif" height=95 width="145">
+          <p></p>
+          <button id="myBtn" onclick="mostrar2();" class="bmodal">Clan de la Foca</button>
+
+            <!-- The Modal -->
+            <div id="myModal2" class="modal2">
+
+              <!-- Modal content -->
+              <div class="modal-content2">
+                <span class="close" onclick="ocultar2();">&times;</span>
+                <p>Después de matar al oso sanguinario que mató a su padre, Torak cree haber encontrado por fin en el Clan del Cuervo un entorno seguro y a salvo de los Devoradores de Almas. Sin embargo, su tranquilidad dura muy poco: una misteriosa enfermedad empieza a propagarse por el Bosque y el pánico cunde entre los clanes. Desesperado, Torak opta por emprender un peligroso viaje hacia una lejana isla, donde al parecer se conoce un remedio secreto contra la terrible epidemia. Tras superar azarosas peripecias a riesgo de su propia vida, en la isla del Clan de la Foca lo esperan el enigmático hechicero Tenris, el anhelado reencuentro con Lobo y su amiga Renn y, más importante aún, un sorprendente descubrimiento sobre sí mismo.</p>
+              </div>
+            </div>
       </div>
       <div style="display: inline-block;">
-          <a href = "https://salamandra.info/libro/devorador-almas-cronicas-prehistoria"><img src = "https://78.media.tumblr.com/60b4a48e7993a45fb69e6314654d4b5a/tumblr_ox2vysmqJS1wbxqk4o1_540.gif" height=95 width="145"></a>
-          <p class="Libro3" style= "color : #0B614B" align= center>
-          Devorador de Almas </p>
+          <img src = "https://78.media.tumblr.com/60b4a48e7993a45fb69e6314654d4b5a/tumblr_ox2vysmqJS1wbxqk4o1_540.gif" height=95 width="145">
+          <p></p>
+          <button id="myBtn" onclick="mostrar3();" class="bmodal">Devorador de Almas</button>
+
+            <!-- The Modal -->
+            <div id="myModal3" class="modal3">
+
+              <!-- Modal content -->
+              <div class="modal-content3">
+                <span class="close" onclick="ocultar3();">&times;</span>
+                <p>Tras superar una serie de azarosas peripecias, Torak, Renn y Lobo por fin han logrado reunirse y disfrutan de unos días apacibles. Sin embargo, pronto se verán enfrentados a la peor pesadilla imaginable. Durante una rutinaria partida de caza, los Devoradores de Almas secuestran a Lobo con malévolas intenciones. Para seguir la pista de su fiel amigo, Torak tiene que recurrir a su poder de trasladar su espíritu al cuerpo de los animales, aunque el uso de este portentoso don puede acabar destruyéndolo. El enfrentamiento final con los Devoradores se librará en el lejano y helado Norte, donde nuestros valientes protagonistas deberán recurrir a todo su ingenio y coraje en un entorno inhóspito y plagado de peligros indescriptibles.</p>
+              </div>
+            </div>
       </div>
       <div style="display: inline-block;">
-          <a href = "https://salamandra.info/libro/hechicera-cronicas-prehistoria"><img src = "https://d.wattpad.com/story_parts/656741010/images/15698fe9bf3c3ddb527263024326.gif" height=95 width="145"></a>
-          <p class="Libro4" style= "color : #8A4B08" align= center>
-          La Hechicera </p>
+          <img src = "https://d.wattpad.com/story_parts/656741010/images/15698fe9bf3c3ddb527263024326.gif" height=95 width="145">
+          <p></p>
+          <button id="myBtn" onclick="mostrar4();" class="bmodal">La Hechicera</button>
+
+            <!-- The Modal -->
+            <div id="myModal4" class="modal4">
+
+              <!-- Modal content -->
+              <div class="modal-content4">
+                <span class="close" onclick="ocultar4();">&times;</span>
+                <p>Torak se enfrenta a la encrucijada más terrible de su vida: los clanes descubren el tatuaje de Devorador de Almas que lleva en el pecho y lo declaran proscrito. En adelante, vagará solo y cualquiera que lo vea podrá darle caza y matarlo. Así, el malévolo plan urdido por Seshru, la hechicera de los Víboras, tiene éxito: Torak se convierte en un paria, desterrado y despreciado por todos. La única que cree en su inocencia es Renn, que tras una serie de trepidantes peripecias logra encontrarlo. Sin embargo, su aventura no ha hecho más que empezar, pues a Torak lo aguarda una terrible revelación que puede cambiar su amistad con Renn para siempre.</p>
+              </div>
+            </div>
       </div>
       <div style="display: inline-block;">
-          <a href = "https://salamandra.info/libro/juramento-torak-cronicas-prehistoria"><img src = "https://i.pinimg.com/originals/54/2a/6c/542a6cc2c00cc05cee817f9b1a4a2231.gif" height=95 width="145"></a>
-          <p class="Libro5" style= "color : #0B4C5F" align= center>
-          Juramento de Torak </p>
+          <img src = "https://i.pinimg.com/originals/54/2a/6c/542a6cc2c00cc05cee817f9b1a4a2231.gif" height=95 width="145">
+          <p></p>
+          <button id="myBtn" onclick="mostrar5();" class="bmodal">Juramento de Torak</button>
+
+            <!-- The Modal -->
+            <div id="myModal5" class="modal5">
+
+              <!-- Modal content -->
+              <div class="modal-content5">
+                <span class="close" onclick="ocultar5();">&times;</span>
+                <p>En un mundo lleno de peligros, los parientes y amigos deben protegerse. Por eso, cuando Torak descubre que Bale ha muerto durante una guardia que debrían haber hecho juntos pero que él decidió saltarse, se siente culpable. Consciente de quién ha sido el asesino de su pariente y seguro de que la única manera de conseguir que el espíritu de Bale descanse es vengar su muerte, Torak decide emprender su búsqueda y adentrarse en el Bosque Profundo junto a Renn y Lobo.
+¿Podrá conseguir dar caza al homicida antes de que éste perprete un crimen mucho mayor contra todo el Bosque? ¿O el Espríritu del Mundo se alejará para siempre de la tierra?</p>
+              </div>
+            </div>
       </div>
       <div style="display: inline-block;">
-          <a href = "http://salamandra.info/libro/cazador-fantasmas-cronicas-prehistoria"><img src = "https://pa1.narvii.com/6587/9cbd80139e0657d9bbcb800a0a78794b183034ca_hq.gif" height=95 width="145"></a>
-          <p class="Libro6" style= "color : #29088A" align= center>
-          Cazador de Fantasmas </p>
+          <img src = "https://pa1.narvii.com/6587/9cbd80139e0657d9bbcb800a0a78794b183034ca_hq.gif" height=95 width="145">
+          <p></p>
+          <button id="myBtn" onclick="mostrar6();" class="bmodal">Cazador de Fantasmas</button>
+
+            <!-- The Modal -->
+            <div id="myModal6" class="modal6">
+
+              <!-- Modal content -->
+              <div class="modal-content6">
+                <span class="close" onclick="ocultar6();">&times;</span>
+                <p>La Noche de las Almas está cada vez más cerca. Eostra, la hechicera de los Búhos Reales, mantiene aterrorizados a los clanes en su intento de dominar el mundo de los vivos y de los muertos. Así, Torak debe abandonar el Bosque para buscar la guarida de la Devoradora de Almas en la Montaña de los Fantasmas. En compañía de Renn, emprende un peligroso viaje a través de parajes helados, durante el cual ambos descubrirán la fuerza de su vínculo y hallarán nuevas alianzas que los impulsarán a seguir adelante. Lobo, su fiel hermano de camada, tendrá que superar el dolor más atroz y evitar que la malvada hechicera le arrebate aquello que más quiere.El cazador de fantasmas es una historia sobre la supervivencia y el poder de la amistad en un mundo sombrío del más lejano pasado, en la que Torak llega al final de su viaje.</p>
+              </div>
+            </div>
       </div>
-            <font class="cronicas"> Presiona sobre cada imagen para leer las reseñas de sus respectivos libros</font>
+      </div>
         </section>
         <article>
+          <font class="cronicas"> Presiona sobre cada imagen para leer las reseñas de sus respectivos libros</font>
           <div class="delcuervo">
             <div class="deljuego">
               <a class= "juego"><h1> Ya que leiste las reseñas de los libros, ¿Quisieras responder algunos cuestionarios? Haz click en la imagen.</h1></a>
