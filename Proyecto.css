@@ -19,23 +19,29 @@ main {
 }
 
 section {
-  background-color: #66EA91; height:210px; width: 890px;
+  background-image: url("https://previews.123rf.com/images/aga7ta/aga7ta1811/aga7ta181100054/111370593-green-color-artistic-background-texture-made-with-watercolor-and-crayon-on-paper.jpg"); height:210px; width: 890px;
+  background-size: cover;
   margin-top: 20px;
   margin-left: 10px;
 }
 article {
-  background-color: #0B614B; height: 210px; width: 600px;
+  background-image: url("https://c1.wallpaperflare.com/preview/634/494/424/blue-overseas-sea-depth.jpg"); height: 210px; width: 600px;
+  background-size: cover;
   margin-left: 200px;
   margin-top: 50px;
 }
 footer {
-  background-image: url("https://besthqwallpapers.com/Uploads/27-9-2019/106262/thumb2-purple-paper-texture-paper-background-paper-texture-with-pattern-purple-creative-background.jpg"); height: 100px; width: 1240px;
+  background-image: url("https://i.pinimg.com/originals/bd/4a/bc/bd4abc4d109f49788aa816aa702f3bb7.jpg"); height: 90px; width: 1240px;
+  background-size: cover;
   margin-left: 40px;
   padding-right: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 .cronicas {
-  margin-left: 5px;
-  color : #A9F5D0;
+  margin-left: 200px;
+  color : #0B6138;
   align: center;
   font-size: 25px;
   font-family:'Gabriola'
@@ -99,17 +105,16 @@ padding-bottom: 10px;
   align-content: center;
 }
 .juego > h1 {
-  margin-top: 0px;
+  margin-top: 0px
 }
 .cuervo {
-  margin-top: 10px;
+  margin-left: 50px;
 }
 .deljuego {
   margin-left: 20px;
   margin-top: 0px;
   height: 180px;
   width: 270px;
-  display: inline-block
 }
 .delcuervo {
   margin-left: 0px;
@@ -118,13 +123,12 @@ padding-bottom: 10px;
   margin-bottom: 4px;
   height: 200px;
   width: 900px;
+  display: flex;
 }
 .petition {
-  margin-left: 15px;
-  margin-bottom: 7px;
-  margin-top: 1px;
+  margin-left: 10px;
   color: #170B3B;
-  font-size: 33px;
+  font-size: 32px;
   font-family:'Gabriola';
 }
 .wolfbrother {
@@ -171,7 +175,7 @@ margin-top: 10px;
  cursor: pointer;
 }
 .bmodal {
-  background-color: transparent;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcToCtkV4LKTenM4bIGBwk0-09npoa-RcHMNGA&usqp=CAU");
   margin-left: 25px;
   border: 0px;
 }
@@ -377,7 +381,7 @@ background-color: #0B6138;
 }
 /* Modal Content/Box */
 .modal-content6 {
- background-image: url("https://image.freepik.com/foto-gratis/fondo-textura-acuarela-purpura-rosa_1083-169.jpg?1");
+ background-image: url("https://cdn.pixabay.com/photo/2016/12/02/14/17/background-1877865_960_720.jpg");
  margin: 15% auto; /* 15% from the top and centered */
  padding: 20px;
  border: 1px solid #5F4C0B;
