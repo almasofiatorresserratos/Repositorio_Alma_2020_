@@ -104,17 +104,30 @@ padding-bottom: 10px;
   font-family:'Gabriola';
   align-content: center;
 }
+.info {
+  color: #81F79F;
+  font-size: 15px;
+  font-family:'Gabriola';
+  align-content: center;
+}
 .juego > h1 {
   margin-top: 0px
 }
 .cuervo {
-  margin-left: 50px;
+  margin-left: 3px;
+}
+.here {
+  margin-top: 150px;
 }
 .deljuego {
   margin-left: 20px;
   margin-top: 0px;
+  height: 160px;
+  width: 180px;
+}
+.deinfo {
   height: 180px;
-  width: 270px;
+  width: 155px;
 }
 .delcuervo {
   margin-left: 0px;
