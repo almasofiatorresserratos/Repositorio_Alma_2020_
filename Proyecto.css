@@ -1,5 +1,5 @@
 nav {
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRDOmpV1FR_CvzqJ4jh6LVXP9G8LsRTMxugCtdbZGYe5sc1909W"); height: 25px; width: 1250px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRDOmpV1FR_CvzqJ4jh6LVXP9G8LsRTMxugCtdbZGYe5sc1909W"); height: 20px; width: 1250px;
   margin-left: 40px;
   margin-bottom: 0px;
 }
@@ -8,13 +8,13 @@ a {
 }
 .aside {
   display: inline-block;
-  background-image: url("https://i.pinimg.com/originals/55/4e/3a/554e3ab1bb4a58ed1894d0d75f18ffba.jpg"); height: 560px; width: 300px;
+  background-image: url("https://i.pinimg.com/originals/55/4e/3a/554e3ab1bb4a58ed1894d0d75f18ffba.jpg"); height: 530px; width: 300px;
   margin-left: 40px;
 }
 main {
   display: inline-block;
   margin-top: 0px;
-  background-image: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/organic-green-abstract-watercolor-wash-irina-sztukowski.jpg"); height: 560px; width: 950px;
+  background-image: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/organic-green-abstract-watercolor-wash-irina-sztukowski.jpg"); height: 530px; width: 950px;
   background-size: cover;
 }
 
@@ -31,7 +31,7 @@ article {
   margin-top: 50px;
 }
 footer {
-  background-image: url("https://i.pinimg.com/originals/bd/4a/bc/bd4abc4d109f49788aa816aa702f3bb7.jpg"); height: 90px; width: 1240px;
+  background-image: url("https://i.pinimg.com/originals/bd/4a/bc/bd4abc4d109f49788aa816aa702f3bb7.jpg"); height: 70px; width: 1240px;
   background-size: cover;
   margin-left: 40px;
   padding-right: 10px;
