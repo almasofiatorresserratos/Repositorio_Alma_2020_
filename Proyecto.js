@@ -69,3 +69,16 @@ function ocultar6() {
  let modal = document.getElementById("myModal6");
  modal.style.display = "none";
 }
+
+
+// When the user clicks on the button, open the modal
+function mostrar7() {
+ let modal = document.getElementById("myModal7");
+ modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+function ocultar7() {
+ let modal = document.getElementById("myModal7");
+ modal.style.display = "none";
+}
