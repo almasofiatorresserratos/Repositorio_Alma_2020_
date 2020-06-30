@@ -1,7 +1,6 @@
 nav {
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRDOmpV1FR_CvzqJ4jh6LVXP9G8LsRTMxugCtdbZGYe5sc1909W"); height: 20px; width: 1220px;
   margin-left: 40px;
-  margin-bottom: 0px;
 }
 a {
   color: #58FAF4;
@@ -93,7 +92,6 @@ footer {
   font-size: 27px;
   font-family:'Gabriola';
   margin-left: 500px;
-  margin-top: 0px;
 }
 .nav {
 padding-bottom: 10px;
