@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+
+<html>
+
+  <head>
+<!-- informacion -->
+  <title>LOTR</title>
+        <link rel="stylesheet" href="LOTR.css">
+        <script src="./LOTR.js"></script>
+  </head>
+  <body class="fondo" background = "https://image.shutterstock.com/image-photo/blue-purple-marbled-random-background-260nw-491524270.jpg">
+    <nav class= "nav">
+          <a class="titulo">
+             ~~ El señor de los Anillos ~~
+             J.R.R.Tolkien ~~
+          </a>
+      </nav>
+      <div class="contenedor">
+      <div class="aside">
+          <div class="pelis">Estas son las principales películas que se han hecho a base de las obras del Legendarium de Tolkien y también a base de su biografía. Da click en las imagenes para ver información de las películas:</div>
+          <a target="_blank" href= "https://www.filmaffinity.com/mx/film750283.html"><img class="comu" src= "https://pics.filmaffinity.com/El_se_or_de_los_anillos_La_comunidad_del_anillo-744631610-large.jpg" height=115 width="75"><a target="_blank" href= "https://www.filmaffinity.com/mx/film944222.html"><img class="torr" src= "https://es.web.img3.acsta.net/medias/nmedia/18/89/85/69/20070008.jpg" height=115 width="75"><a target="_blank" href= "https://www.filmaffinity.com/mx/film226427.html"><img class="retu" src= "https://es.web.img2.acsta.net/medias/nmedia/18/89/68/19/20061877.jpg" height=115 width="75"><a target="_blank" href= "https://www.filmaffinity.com/mx/film172611.html"><img class="via" src= "https://es.web.img3.acsta.net/c_215_290/medias/nmedia/18/88/91/08/20306579.jpg" height=115 width="75"><a target="_blank" href= "https://www.filmaffinity.com/mx/film919815.html"><img class="smaug" src= "https://es.web.img3.acsta.net/pictures/13/12/13/11/42/576944.jpg" height=115 width="75"><a target="_blank" href= "https://www.filmaffinity.com/mx/film583347.html"><img class="cinco" src= "https://pics.filmaffinity.com/El_Hobbit_La_batalla_de_los_cinco_ej_rcitos-282438316-mmed.jpg" height=115 width="75"><a target="_blank" href= "https://www.filmaffinity.com/mx/film258572.html"><img class="hunt" src= "https://pics.filmaffinity.com/The_Hunt_for_Gollum-779798516-large.jpg" height=115 width="75"><a target="_blank" href= "https://www.filmaffinity.com/mx/film250101.html"><img class="born" src= "https://pics.filmaffinity.com/born_of_hope-696299132-mmed.jpg" height=115 width="75"><a target="_blank" href= "https://www.filmaffinity.com/mx/film442943.html"><img class="tolk" src= "https://es.web.img3.acsta.net/pictures/19/04/10/14/57/0350827.jpg" height=115 width="75">
+      </div>
+      <main>
+        <div>
+          <section>
+      <div style="display: inline-block;">
+          <img class="hobbit" src = "https://static.posters.cz/image/750/poster/el-hobbit-3-la-batalla-de-los-cinco-ejercitos-bilbo-i21735.jpg" height=170 width="120">
+          <p></p>
+          <button id="myBtn" onclick="mostrar();" class="bmodal">El Hobbit</button>
+
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+
+              <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close" onclick="ocultar();">&times;</span>
+                <p>Sacado de su cómodo agujero-hobbit por el mago Gandalf y una banda compuesta por los enanos Thorin Escudo de Roble, Dwalin, Balin, Óin, Glóin, Ori, Dori, Nori, Bifur, Bofur, Bombur, Fíli y  Kíli, el hobbit Bilbo Bolsón se encuentra de pronto en medio de una conspiración que pretende recuperar un gran tesoro robado muchos años atrás a los reyes enanos de la Montaña Solitaria por Smaug el Magnífico, un enorme y muy peligroso dragón.</p>
+              </div>
+            </div>
+      </div>
+      <div style="display: inline-block;">
+          <img class="anillos" src = "https://i.pinimg.com/originals/c2/ec/b4/c2ecb49f64016a4dc6864bd9d83275d4.png" height=170 width="120">
+          <p></p>
+          <button id="myBtn" onclick="mostrar2();" class="bmodal">La Comunidad del Anillo</button>
+
+            <!-- The Modal -->
+            <div id="myModal2" class="modal2">
+
+              <!-- Modal content -->
+              <div class="modal-content2">
+                <span class="close" onclick="ocultar2();">&times;</span>
+                <p>Sesenta años después de su temeraria misión en la Montaña Solitaria, el hobbit Bilbo Bolsón vive apaciblemente en la Comarca con su joven sobrino Frodo Bolsón, a quien adopta tras la muerte de sus padres y lleva a vivir con él. En su cumpleaños número ciento once, Bilbo desaparece para siempre de la Comarca, heredando a Frodo todas sus posesiones, incluido un extraño y mágico anillo. Sin embargo, cuando Frodo se entera de que ese anillo no es otro que el Anillo Único que le fue arrebatado hace más de 3060 años atrás a Sauron el Señor Oscuro, emprende una pelirosa misión junto con Gandalf el mago, los hobbits Sam, Merry y Pippin, los hombres Boromir y Aragorn, el enano Gimli y el elfo Legolas para destruirlo en el lugar donde fue forjado: El Monte del Destino. ¿Podrá la Comunidad del Anillo cumplir con la misión?¿O Sauron recuperará el Anillo y será el fin de la Tierra Media?...</p>
+              </div>
+            </div>
+      </div>
+      <div style="display: inline-block;">
+          <img class="torres" src = "https://i.pinimg.com/564x/3c/dc/51/3cdc517cd549c0cdb5d14523824b4e82.jpg" height=170 width="120">
+          <p></p>
+          <button id="myBtn" onclick="mostrar3();" class="bmodal">Las dos Torres</button>
+
+            <!-- The Modal -->
+            <div id="myModal3" class="modal3">
+
+              <!-- Modal content -->
+              <div class="modal-content3">
+                <span class="close" onclick="ocultar3();">&times;</span>
+                <p>Tras la caída de Gandalf en las Minas de Moria y haber sido atacados por una banda de orcos, los compañeros de la Comunidad del Anillo se han separado: por un lado Frodo el Portador del Anillo y su leal compañero Sam guiados por la impredecible criatura Gollum siguen adelante hacia el Monte del Destino para cumplir el propósito de la misión, mientras que Aragorn, Legolas y Gimli, por otro lado, van tras los orcos, quienes han capturado a sus amigos Merry y Pippin tras haber matado a Boromir. Durante su viaje, ambos grupos tendrán numerosos encuentros tanto buenos como malos, y estos serán los que marcarán el cauce del destino... ¿Lograrán Frodo y Sam llegar hasta el final y llevar a cabo la misión?¿Podrán Arargorn, Legolas y Gimli lograr sus cometidos?...</p>
+              </div>
+            </div>
+      </div>
+      <div style="display: inline-block;">
+          <img class="rey" src = "https://i.pinimg.com/564x/1f/72/25/1f722531e00d0fa3d8fc14ae1cb9be44.jpg" height=170 width="120">
+          <p></p>
+          <button id="myBtn" onclick="mostrar4();" class="bmodal">El retorno del Rey</button>
+
+            <!-- The Modal -->
+            <div id="myModal4" class="modal4">
+
+              <!-- Modal content -->
+              <div class="modal-content4">
+                <span class="close" onclick="ocultar4();">&times;</span>
+                <p>Luego de muchos desbarajustes y horripilantes eventos inesperados, Frodo y Sam logran volver a ponerse en marcha hacia el Monte del Destino, y se acercan cada vez más al final de su misión... pero no tienen idea de lo que aún les espera en su camino. Mientras tanto, Gangdalf y Pippin se encuentran en Gondor a servicio del senescal Denethor. Merry es, mientras tanto, fiel escudero del rey Theoden de Rohan; y por su parte, Legolas, Aragorn y Gimli transitan por sinuosos senderos con la intención de ayudar a sus amigos en la guerra que ya está sobre ellos. Pero aún los esperan muchas cosas que tal vez sean las que definan el impredecible destino...¿Cómo terminará todo?... Nadie lo sabe...</p>
+              </div>
+            </div>
+      </div>
+      <div>
+        <font class="texto"> **Presiona cada nombre para ver acerca de su respectiva historia**</font>
+      </div>
+      </div>
+        </section>
+        <article>
+          <div class="delcuervo">
+            <div class="deobras">
+              <p></p>
+              <p></p>
+              <a class= "obras"><h1>Para saber más sobre las obras de John Ronald Reuel Tolkien, da click en la imagen:</h1></a>
+            </div>
+            <div>
+              <a target="_blank" href= "https://elanillounico.com/tolkien/en-que-orden-leer-los-libros-de-jrr-tolkien/"><img class="masde" src = "https://i.pinimg.com/originals/05/63/dc/0563dcfc2b4c491381c65a4ed356aa6e.png" height=140 width= "140"></a>
+            </div>
+            <div class="deTolkien">
+              <a class= "Tolkien"><h1>Para saber acerca del autor Tolkien, da clik en su nombre:</h1></a>
+            </div>
+            <div style="display: inline-block;">
+                <img class="simbol" src = "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRumyblOphFirwAthnJlDOzlxDBZ6LsLhbNmg&usqp=CAU" height=130 width="100">
+                <p></p>
+                <button id="myBtn" onclick="mostrar7();" class="bomodal">John Ronal Reuel Tolkien</button>
+
+                  <!-- The Modal -->
+                  <div id="myModal7" class="modal7">
+
+                    <!-- Modal content -->
+                    <div class="modal-content7">
+                      <span class="close" onclick="ocultar7();">&times;</span>
+                      <p>John Ronald Reuel Tolkien, conocido como J.R.R. Tolkien, nació el 3 de enero de 1892 en la cd. Bloemfontein, en la actual Sudáfrica. Sus padres eran Arthur Reuel Tolkien y Mabel Suffield. Por una tradición familiar, el pequeño recibió el nombre de su abuelo paterno: John. Su segundo nombre, Ronald, fue por su madre, quien estaba convencida de que sería niña y la que quería llamar Rosalind. Así que el nombre sustituto fue Ronald. También recibió el segundo nombre de su padre: Reuel, palabra del antiguo hebreo cuyo significado es “próximo a Dios”. En 1895, su madre, agotada por el clima sudafricano, decidió regresar a Inglaterra con sus hijos, John (cuya salud también se vio afectada por el clim) y Hilary, nacida el 17 de febrero de 1894.</p>
+
+<p> El padre de John se quedó en Sudáfrica a cargo de la venta de diamantes y piedras preciosas al Banco de Inglaterra, pero falleció el 15 de febrero de 1896 por fiebre reumática. Después de tan trágica pérdida y sin ingresos, la madre fue a vivir con sus hijos junto a su familia en Birmingham, mudándose ese mismo año a la vecina localidad de Sarehole. La belleza de la campiña inglesa cautivó a John desde el primer momento, causándole gran impresión, como queda patente en sus escritos. La madre de John, Mabel, se hizo cargo de su educación, enseñándole las bases del latín cuando tenía 4 años, edad a la que el John ya sabía leer, y poco después, escribir de forma fluida. A tan tierna edad, ya se despertó en él la curiosidad y amor hacia los idiomas, pues uno de sus entretenimientos era inventar idiomas propios.</p>
+
+<p> Cuando tenía 12 años, John fue golpeado nuevamente por la tragedia, pues su madre falleció en 1904 por complicaciones de la diabetes que padecía. John y Hilary, quedaron entonces al cuidado del padre Francis Xavier Morgan, sacerdote católico de origen jerezano del Oratorio de Birmingham. John tenía 16 años cuando en conoció a la que sería el amor de su vida: Edith Mary Bratt. Sin embargo su relación no era bien vista por el padre Morgan, ya que pensaba que ella distraía a John de los estudios, por lo que, después de varias advertencias e intentos de separar a los jóvenes, finalmente acabó prohibiendo a John que mantuviera contacto alguno con Edith hasta que cumpliera 21 años. Con el paso de los años, John continuaba demostrando sus aptitudes lingüísticas, desarrollando lenguajes elaborados mientras asistía a la King Edward’s School. En la escuela formó junto a sus amigos la Tea Club and Barrovian Society (T.C.B.S.), una hermandad que solía reunirse en los almacenes Barrow para tomar el té (de ahí su nombre), charlar, divertirse, recitar a los clásicos o sus propias composiciones...</p>
+
+<p> Con 19 años, John viajó a Suiza con doce compañeros en el verano de 1911, y según recordaría años más tarde en una carta, aseguró que su experiencia en los Alpes le había servido de inspiración a la hora de relatar la travesía de Bilbo Bolsón a través de las Montañas Nubladas en su obra "El Hobbit". Cuando cumplió 21 años, John se puso en contacto con Edith, a la que le declaró su amor. Ambos se comprometieron en enero de 1913, y se casaron en Warwick el 22 de marzo de 1916.
+Durante esos años, Tolkien continuó desarrollando su interés en la filología y en crear leyendas propias que dieran cabida a las lenguas que inventaba. El 24 de septiembre de 1914 se produjo lo que muchos estudiosos, como John Garth, denominan el “momento fundacional” de la Tierra Media: la escritura del poema ‘The Voyage of Éarendel the Evening Star‘ (El Viaje de Éarendel, la Estrella Vespertina), poema que supuso el génesis de su Legendarium y que sepublicó en "El Libro de los Cuentos Perdidos 2", segundo volumen de la colección "La historia de la Tierra Media".</p>
+
+<p> Sin embargo, la apacible vida de John, al igual que la de todos los europeos, se vio bruscamente interrumpida con el estallido en 1914 de la Primera Guerra Mundial. En 1915, John se graduó en Oxford con una mención de honor en Literatura y Lengua Inglesas, y poco después se alistó en el ejército, sirviendo como oficial de comunicaciones (con el rango de alférez) en el 11º de los Fusileros de Lancashire, batallón con el que combatió en la cruenta Batalla del Somme (1 de julio – 18 de noviembre de 1916) y en la que vio morir a muchos de sus amigos. Con más de 95.000 muertos y 323.000 heridos, es la batalla más sangrienta del Ejército Británico, y sólo en el primer día murieron más de 19.000 soldados y otros 38.000 fueron heridos. Uno de los soldados que falleció en aquella sangrienta jornada fue Robert  Q. Gilson, gran amigo de Tolkien, miembro de la T.C.B.S. y uno de los llamados “cuatro inmortales” juanto al propio Tolkien, G.B. Smith (quien fallecería unos meses más tarde) y Christopher Wiseman. El 27 de octubre, John cayó enfermo, víctima de "fiebre de las trincheras", y el 8 de noviembre fue trasladado a Inglaterra. Durante su convalecencia empezó a dar forma al conjunto de historias y leyendas de los Días Antiguos de la Tierra Media, conjunto al que llamó "El libro de los cuentos perdidos". Como la mayoría de sus amigos murieron durante la Gran Guerra, para Tolkien el escribir se convirtió en una forma de honrar su memoria.</p>
+
+<p> Tolkien fue sin duda uno de los filólogos más importantes de su época. En 1920, tras haber trabajado en la redacción del Oxford English Dictionary, entró como profesor no titular de Lengua Inglesa en la Universidad de Leeds. Más tarde alcanzó el cargo de profesor. Sin embargo, pasó casi toda su vida académica en Oxford; fue profesor de Anglosajón de 1925 a 1945 en el Pembroke College, y de 1945 a 1959 lo fue de Lengua y Literatura Inglesas en el Merton College. John dedicaba su tiempo libre a su familia y a su obra literaria, en la que había comenzado a trabajar al regreso del frente. Continuó trabajando en ese conjunto de historias y leyendas que acabarían convirtiéndose, años después, en "El Silmarillion". Inventó así una mitología propia, en compensación por la que no poseía Inglaterra, pues John siempre se había lamentado de que su país no poseyera una mitología como la de los países mediterráneos, especialmente la griega. Se interesó especialmente por las mitologías nórdicas, y realizó importantes traducciones y estudios de obras medievales, como el poema épico anglosajón Beowulf, o el conjunto de historias épicas nórdicas que conforman "La leyenda de Sigurd y Gudrún".</p>
+
+<p> Ya en Oxford, en 1926 conoció a C.S. Lewis, otro profesor de la Universidad que al igual que Tolkien, estaba fascinado con la literatura fantástica y la creación de historias propias. Ambos formaron los Inklings, club literario del que también formaron parte otros académicos y escritores de Oxford como Charles Williams y Owen Barfield. Solían reunirse en pubs como The Eagle & Child, y durante sus encuentros leían sus escritos y se criticaban entre ellos.</p>
+
+<p> John y Edith tuvieron cuatro hijos, el sacerdote John Francis Reuel (17 de noviembre de 1917 – 22 de enero de 2003), Michael Hilary Reuel (octubre de 1920 – 1984), Christopher Tolkien (21 de noviembre de 1924) y Priscila Anne Reuel (1929). Fue precisamente para sus hijos por lo que Tolkien escribió un cuento infantil titulado "El Hobbit", cuyas primeras líneas redactó mientras corregía unos exámenes. John dudaba que sus historias le pudieran interesar al público, aunque finalmente fue persuadido por su gran amigo C.S. Lewis para que publicara "El Hobbit". El cuento fue publicado en 1937 por la editorial George Allen & Unwin, y su gran éxito sorprendió a Tolkien. Casi de inmediato, su editor le pidió una secuela, pues el público demandaba más historias sobre hobbits. Y fue así como Tolkien comenzó con la que sería su obra maestra y cumbre de la literatura fantástica del s. XX: "El Señor de los Anillos". Tardó 12 años en escribir tan magna obra, y debido a su volumen, fue publicada en tres entregas: "La Comunidad del Anillo", "Las dos Torres" (publicadas en 1954) y "El retorno del Rey", que vio la luz en 1955. Si el éxito de "El Hobbit" sorprendió a Tolkien, el monumental éxito y la repercusión mundial causadas por "El Señor de los Anillos" lo asombró y maravilló.</p>
+
+<p> Mientras trabajaba en la redacción de "El Señor de los Anillos", Tolkien publicó varias obras: el cuento corto "Hoja, de Niggle", publicado en 1939 en el periódico Dublin Review, y la novela "Egidio, el granjero de Ham", publicada por la editorial George Allen & Unwin en 1949. En 1962, y a petición de una tía suya, Tolkien publicó "Las aventuras de Tom Bombadil y otros poemas del Libro Rojo", una recopilación de 16 poemas, siendo sólo dos de ellos sobre el alegre Tom Bombadil. El resto son cuentos de hadas o relatos de bestiario en verso.</p>
+<p> Antes de su muerte, Tolkien publicó dos obras más: "Árbol y Hoja" y el "Poema Mitopoeia", un recopilatorio de varios cuentos publicado en 1964, y "El herrero de Wootton Mayor", publicado en 1967.</p>
+
+<p> John se jubiló en 1959, dejando sus clases en Oxford, y en 1968, él y Edith se mudaron a Bournemouth. Tras la muerte de Edith el 29 de noviembre de 1971, John hizo escribir sobre su lápida el nombre "Lúthien". Finalmente, John murió el 2 de septiembre de 1973. Un año y medio antes de morir, Tolkien fue nombrado Comendador de la Orden del Imperio Británico por la reina Isabel II el 28 de marzo de 1972, año en el que también la Universidad de Oxford le nombró Doctor Honoris Causa en Letras. Hoy, la tumba de John y Edith en el cementerio de Wolvercote de Oxford (lápida en la que aparecen grabados los nombres "Beren" y "Lúthien") es lugar de peregrinación obligada para los millones de admiradores de su obra.</p>
+<img class="bio" src="https://i1.wp.com/elanillounico.com/wp-content/uploads/2015/03/JRR-Tolkien15.jpg?resize=723%2C1024&ssl=1" height="300" width="212"><img class="tumba" src="https://66.media.tumblr.com/tumblr_lxusx7sQsx1qcl6yfo1_1280.jpg" height="300" width="300"><img class="love" src="https://miro.medium.com/max/4662/1*_TIghFdMvN68rhS0w3UWSw.jpeg" height="300" width="200">
+                    </div>
+                  </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </main>
+  </div>
+    <footer>
+      <font class= "more">Si te confunden tantos nombres como hay en estas obras, aquí puedes ver una guía con muchos de los nombres del Legendarium de Tolkien:</font>
+      <a target="_blank" href = "http://www.anarda.net/tolkien/guiaesdla.html"><img src = "https://wallpaperset.com/w/full/e/1/9/186194.jpg" height=60 width=90></a>
+    </footer>
+  </body>
+</html>

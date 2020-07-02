@@ -1,0 +1,383 @@
+nav {
+  background-image: url("https://cdn.pixabay.com/photo/2016/11/05/18/52/background-1800933_960_720.jpg"); height: 30px; width: 1220px;
+  background-size: cover;
+  margin-left: 40px;
+}
+a {
+  color: #58FAF4;
+}
+.aside {
+  display: inline-block;
+  background-image: url("https://cdn.pixabay.com/photo/2016/11/06/13/32/background-1802935_1280.jpg"); height: 520px; width: 280px;
+  margin-left: 40px;
+}
+main {
+  display: inline-block;
+  margin-top: 0px;
+  background-image: url("https://files.123freevectors.com/wp-content/original/170146-blue-green-and-grey-watercolor-background-texture-image.jpg"); height: 520px; width: 940px;
+  background-size: cover;
+}
+
+section {
+  background-image: url("https://worshiphousemedia.s3.amazonaws.com/images/main/s/mo/new/mo/greenvintagetextureparticles.jpg"); height:260px; width: 660px;
+  background-size: cover;
+  margin-top: 20px;
+  margin-left: 100px;
+}
+article {
+  background-image: url("https://cdn.pixabay.com/photo/2016/09/13/19/27/texture-1668076_1280.jpg"); height: 180px; width: 670px;
+  background-size: cover;
+  margin-left: 200px;
+}
+footer {
+  background-image: url("https://image.freepik.com/free-photo/green-grunge-paper-background_1048-5588.jpg"); height: 70px; width: 1210px;
+  background-size: cover;
+  margin-left: 40px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.contenedor {
+  display: flex;
+}
+.fondo {
+  background-size: cover;
+}
+.titulo {
+  color: #29220A;
+  font-size: 28px;
+  font-family:'Gabriola';
+  font-weight: bold;
+  margin-left: 430px;
+}
+.texto {
+  margin-left: 12px;
+  color : #A9F5A9;
+  align: center;
+  font-size: 28px;
+  font-weight: bold;
+  font-family:'Gabriola'
+}
+.hobbit {
+  margin-left: 10px;
+}
+.anillos {
+  margin-left: 50px;
+}
+.torres {
+  margin-left: 25px;
+}
+.rey {
+  margin-left: 35px;
+}
+.obras > h1 {
+  margin-top: 0px
+}
+.obras {
+  color: #3A2F0B;
+  font-size: 15px;
+  font-family:'Gabriola';
+  align-content: center;
+}
+.masde {
+  margin-left: 3px;
+}
+.deobras {
+  margin-left: 20px;
+  margin-top: 0px;
+  height: 160px;
+  width: 180px;
+}
+.deTolkien {
+  height: 180px;
+  width: 155px;
+  margin-left:
+}
+.delcuervo {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 50px;
+  margin-bottom: 4px;
+  height: 200px;
+  width: 900px;
+  display: flex;
+}
+.simbol {
+  margin-left: 28px;
+}
+.Tolkien {
+  color: #3A2F0B;
+  font-size: 16px;
+  font-family:'Gabriola';
+  align-content: center;
+}
+.bio {
+  margin-left: 30px;
+}
+.tumba {
+  margin-left: 10px;
+}
+.love {
+  margin-left: 10px;
+}
+.pelis {
+  color: #CEF6D8;
+  font-size: 19px;
+  font-family:'Gabriola';
+  margin-left: 12px;
+}
+.more {
+  color: #CEF6D8;
+  font-size: 25px;
+  font-family:'Gabriola';
+}
+.tolk {
+  margin-left: 3px;
+}
+.comu {
+  margin-left: 15px;
+}
+.torr {
+  margin-left: 3px;
+}
+.retu {
+  margin-left: 3px;
+}
+.via {
+  margin-left: 15px;
+}
+.smaug {
+  margin-left: 3px;
+}
+.cinco {
+  margin-left: 3px;
+}
+.hunt {
+  margin-left: 15px;
+}
+.born {
+  margin-left: 3px;
+}
+
+
+
+/* The Modal (background) */
+.modal {
+ display: none; /* Hidden by default */
+ position: fixed; /* Stay in place */
+ z-index: 1; /* Sit on top */
+ left: 0;
+ top: 0;
+ width: 100%; /* Full width */
+ height: 100%; /* Full height */
+ overflow: auto; /* Enable scroll if needed */
+ background-color: rgb(0,0,0); /* Fallback color */
+ background-image: url("https://i.pinimg.com/564x/20/53/fb/2053fb56e8ec9cbe94a2f5543c3181c8.jpg"); /* Black w/ opacity */
+ background-size: cover;
+}
+/* Modal Content/Box */
+.modal-content {
+ background-image: url("https://cdn.pixabay.com/photo/2016/06/29/23/15/background-1488018_960_720.jpg");
+ margin: 15% auto; /* 15% from the top and centered */
+ padding: 20px;
+ border: 1px solid #5F4C0B;
+ width: 60%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+ color: #aaa;
+ float: right;
+ font-size: 28px;
+ font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+ color: black;
+ text-decoration: none;
+ cursor: pointer;
+}
+.bmodal {
+  background-image: url("https://previews.123rf.com/images/attitude/attitude1605/attitude160500023/59105908-gold-background-texture-luxury-solid-gold-background-wall-with-peeling-cracked-paint-texture-and-shi.jpg");
+   color: #3A2F0B;
+   font-size: 15px;
+   font-family: 'Garamond';
+   font-weight: bold;
+   border-radius: 7px;
+   border-color: #5F4C0B;
+   margin-left: 30px;
+}
+
+
+
+/* The Modal (background) */
+.modal2 {
+ display: none; /* Hidden by default */
+ position: fixed; /* Stay in place */
+ z-index: 1; /* Sit on top */
+ left: 0;
+ top: 0;
+ width: 100%; /* Full width */
+ height: 100%; /* Full height */
+ overflow: auto; /* Enable scroll if needed */
+ background-color: rgb(0,0,0); /* Fallback color */
+ background-image: url("https://lostesorosdesmaug.es/wp-content/uploads/2019/07/portada.jpg"); /* Black w/ opacity */
+ background-size: cover;
+}
+/* Modal Content/Box */
+.modal-content2 {
+ background-image: url("https://previews.123rf.com/images/apostrophe/apostrophe1304/apostrophe130400058/19279737-verde-lima-resumen-de-antecedentes-desvaneci%C3%B3-frontera-grunge-textura-de-fondo-de-dise%C3%B1o-de-sitios-web-enc.jpg");
+ margin: 15% auto; /* 15% from the top and centered */
+ padding: 20px;
+ border: 1px solid #5F4C0B;
+ width: 60%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+ color: #aaa;
+ float: right;
+ font-size: 28px;
+ font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+ color: black;
+ text-decoration: none;
+ cursor: pointer;
+}
+
+
+
+/* The Modal (background) */
+.modal3 {
+ display: none; /* Hidden by default */
+ position: fixed; /* Stay in place */
+ z-index: 1; /* Sit on top */
+ left: 0;
+ top: 0;
+ width: 100%; /* Full width */
+ height: 100%; /* Full height */
+ overflow: auto; /* Enable scroll if needed */
+ background-color: rgb(0,0,0); /* Fallback color */
+ background-image: url("https://1.bp.blogspot.com/-oFJOgcbEx-k/UDk-AMi3vqI/AAAAAAAAAFs/wSJbD7hLulw/s1600/marshes.jpg"); /* Black w/ opacity */
+ background-size: cover;
+}
+/* Modal Content/Box */
+.modal-content3 {
+ background-image: url("https://ak.picdn.net/shutterstock/videos/16665895/thumb/1.jpg");
+ margin: 15% auto; /* 15% from the top and centered */
+ padding: 20px;
+ border: 1px solid #5F4C0B;
+ width: 60%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+ color: #aaa;
+ float: right;
+ font-size: 28px;
+ font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+ color: black;
+ text-decoration: none;
+ cursor: pointer;
+}
+
+
+
+
+/* The Modal (background) */
+.modal4 {
+ display: none; /* Hidden by default */
+ position: fixed; /* Stay in place */
+ z-index: 1; /* Sit on top */
+ left: 0;
+ top: 0;
+ width: 100%; /* Full width */
+ height: 100%; /* Full height */
+ overflow: auto; /* Enable scroll if needed */
+ background-color: rgb(0,0,0); /* Fallback color */
+ background-image: url("https://3.bp.blogspot.com/-70O4AmVAeYs/T9ZOS0bBqsI/AAAAAAAAAl0/_s71ZXAbKwU/s1600/MonteDestino.JPG"); /* Black w/ opacity */
+ background-size: cover;
+}
+/* Modal Content/Box */
+.modal-content4 {
+ background-image: url("https://st.depositphotos.com/1043285/3273/i/950/depositphotos_32733579-stock-photo-orange-background.jpg");
+ margin: 15% auto; /* 15% from the top and centered */
+ padding: 20px;
+ border: 1px solid #5F4C0B;
+ width: 60%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+ color: #aaa;
+ float: right;
+ font-size: 28px;
+ font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+ color: black;
+ text-decoration: none;
+ cursor: pointer;
+}
+
+
+
+
+/* The Modal (background) */
+.modal7 {
+ display: none; /* Hidden by default */
+ position: fixed; /* Stay in place */
+ z-index: 1; /* Sit on top */
+ left: 0;
+ top: 0;
+ width: 100%; /* Full width */
+ height: 100%; /* Full height */
+ overflow: auto; /* Enable scroll if needed */
+ background-color: rgb(0,0,0); /* Fallback color */
+ background-image: url("https://i.pinimg.com/originals/90/fb/c8/90fbc89f36ab284a974be18c66909558.jpg"); /* Black w/ opacity */
+ background-size: cover;
+}
+/* Modal Content/Box */
+.modal-content7 {
+ background-image: url("https://img.pixers.pics/pho_wat(s3:700/FO/78/63/83/0/700_FO7863830_53a4dc788ad19e5350a0730c0bbabfb0.jpg,700,546,cms:2018/10/5bd1b6b8d04b8_220x50-watermark.png,over,480,496,jpg)/fotomurales-floral-papel-o-pergamino.jpg.jpg");
+ background-size: cover;
+ margin: 15% auto; /* 15% from the top and centered */
+ padding: 20px;
+ border: 1px solid #5F4C0B;
+ width: 60%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+ color: #aaa;
+ float: right;
+ font-size: 28px;
+ font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+ color: black;
+ text-decoration: none;
+ cursor: pointer;
+}
+.bomodal {
+  background-image: url("https://cdn.shopify.com/s/files/1/0940/5942/products/studio-backgrounds-hand-painted-tie-dye-spring-green-muslin-backdrop-select-size-1.jpeg?v=1510188094");
+   color: #0B3B2E;
+   font-size: 15px;
+   font-family: 'Garamond';
+   border-radius: 7px;
+   border-color: #0B2F3A;
+   margin-left: 1px;
+}
