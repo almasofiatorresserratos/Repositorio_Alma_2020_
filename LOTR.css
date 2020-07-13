@@ -53,9 +53,9 @@ footer {
 }
 .texto {
   margin-left: 12px;
-  color : #A9F5A9;
+  color : #A9A9F5;
   align: center;
-  font-size: 28px;
+  font-size: 20px;
   font-weight: bold;
   font-family:'Gabriola'
 }
@@ -136,29 +136,100 @@ footer {
   margin-left: 3px;
 }
 .comu {
-  margin-left: 15px;
+  margin-left: 160px;
 }
 .torr {
-  margin-left: 3px;
+  margin-left: 160px;
 }
 .retu {
-  margin-left: 3px;
+  margin-left: 160px;
 }
 .via {
-  margin-left: 15px;
+  margin-left: 160px;
 }
 .smaug {
-  margin-left: 3px;
+  margin-left: 160px;
 }
 .cinco {
-  margin-left: 3px;
+  margin-left: 160px;
 }
 .hunt {
-  margin-left: 15px;
+  margin-left: 160px;
 }
 .born {
-  margin-left: 3px;
+  margin-left: 160px;
 }
+.uno {
+  color: #0B0B3B;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Gabriola';
+  border-radius: 7px;
+}
+.tex1 {
+  color: #29088A;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Gabriola';
+  border-radius: 7px;
+  margin-left: 5px;
+}
+.cont {
+  color: #29088A;
+  font-size: 18px;
+  font-family: 'Gabriola';
+  border-radius: 7px;
+  margin-left: 5px;
+}
+.book1 {
+  margin-left: 5px;
+}
+.img1 {
+  margin-left: 5px;
+}
+.tex2 {
+  color: #29088A;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Gabriola';
+  border-radius: 7px;
+  margin-left: 5px;
+}
+.cont2 {
+  color: #29088A;
+  font-size: 18px;
+  font-family: 'Gabriola';
+  border-radius: 7px;
+  margin-left: 5px;
+}
+.book2 {
+  margin-left: 5px;
+}
+.img2 {
+  margin-left: 5px;
+}
+.tex3 {
+  color: #29088A;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Gabriola';
+  border-radius: 7px;
+  margin-left: 5px;
+}
+.cont3 {
+  color: #29088A;
+  font-size: 18px;
+  font-family: 'Gabriola';
+  border-radius: 7px;
+  margin-left: 5px;
+}
+.book3 {
+  margin-left: 5px;
+}
+.img3 {
+  margin-left: 5px;
+}
+
 
 
 
@@ -268,7 +339,8 @@ footer {
 }
 /* Modal Content/Box */
 .modal-content3 {
- background-image: url("https://ak.picdn.net/shutterstock/videos/16665895/thumb/1.jpg");
+ background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20190223/ourmid/pngtree-gray-blue-watercolor-splash-ink-chinese-style-background-grayblueblue-and-whitechinese-image_84142.jpg");
+ background-size: cover;
  margin: 15% auto; /* 15% from the top and centered */
  padding: 20px;
  border: 1px solid #5F4C0B;
@@ -309,7 +381,8 @@ footer {
 }
 /* Modal Content/Box */
 .modal-content4 {
- background-image: url("https://st.depositphotos.com/1043285/3273/i/950/depositphotos_32733579-stock-photo-orange-background.jpg");
+ background-image: url("https://images.squarespace-cdn.com/content/v1/51825c88e4b0878772a64a78/1417462705330-FVWANNEOI9WTMJT0H1U0/ke17ZwdGBToddI8pDm48kIE68UmE2SXbjbBF6nFI-qd7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UQD1Vt886NBcjJdtGwhTrhpxLfEXdvNU-bSZbVqXyjMU78ELKKMk3zeaJMjNiKdaSw/Water+and+Sky+5.jpg");
+ background-size: cover;
  margin: 15% auto; /* 15% from the top and centered */
  padding: 20px;
  border: 1px solid #5F4C0B;
@@ -380,4 +453,57 @@ footer {
    border-radius: 7px;
    border-color: #0B2F3A;
    margin-left: 1px;
+}
+
+
+
+
+/* The Modal (background) */
+.modal8 {
+ display: none; /* Hidden by default */
+ position: fixed; /* Stay in place */
+ z-index: 1; /* Sit on top */
+ left: 0;
+ top: 0;
+ width: 100%; /* Full width */
+ height: 100%; /* Full height */
+ overflow: auto; /* Enable scroll if needed */
+ background-color: rgb(0,0,0); /* Fallback color */
+ background-image: url("https://i.pinimg.com/originals/89/2d/1b/892d1bc3c6999ebc2d87b703cfc3864f.gif"); /* Black w/ opacity */
+ background-size: cover;
+}
+/* Modal Content/Box */
+.modal-content8 {
+ background-image: url("https://media1.giphy.com/media/5bDAc3il2DySZAFGpQ/giphy.gif");
+ background-size: cover;
+ margin: 15% auto; /* 15% from the top and centered */
+ padding: 20px;
+ border: 1px solid #5F4C0B;
+ width: 60%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+ color: #aaa;
+ float: right;
+ font-size: 28px;
+ font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+ color: black;
+ text-decoration: none;
+ cursor: pointer;
+}
+.bmodalp {
+  background-image: url("https://i.pinimg.com/originals/0b/59/34/0b5934b623f3c6f5377f221959d77982.gif");
+   color: #D8CEF6;
+   font-size: 20px;
+   font-weight: bold;
+   text-decoration: underline;
+   font-family: 'Gabriola';
+   border-radius: 7px;
+   border-color: #0B2F3A;
+   margin-left: 50px;
 }

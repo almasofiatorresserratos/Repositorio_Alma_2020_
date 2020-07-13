@@ -47,15 +47,17 @@ footer {
 }
 .video {
   margin-left: 50px;
+  margin-top: 0px;
   width: 200px;
   color : #170B3B;
-  font-size: 30px;
+  font-size: 20px;
+  font-weight: bold;
   font-family:'Gabriola'
 }
 .youtube {
-  height: 300px;
-  width: 210px;
-  margin-left: 50px;
+  height: 180px;
+  width: 120px;
+  margin-left: 70px;
 }
 .Libro1 {
   color: #4B088A;
@@ -152,6 +154,12 @@ margin-top: 10px;
 .contenedor {
   display: flex;
 }
+.what {
+  margin-left: 45px;
+}
+
+
+
 /* The Modal (background) */
 .modal {
  display: none; /* Hidden by default */
@@ -193,6 +201,7 @@ margin-top: 10px;
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcToCtkV4LKTenM4bIGBwk0-09npoa-RcHMNGA&usqp=CAU");
   margin-left: 25px;
   border: 0px;
+  cursor: pointer;
 }
 
 
@@ -474,4 +483,57 @@ background-color: #0B6138;
  border-radius: 5px;
  border-color: #0B6138;
  margin-left: 25px;
+}
+
+
+
+
+/* The Modal (background) */
+.modal8 {
+ display: none; /* Hidden by default */
+ position: fixed; /* Stay in place */
+ z-index: 1; /* Sit on top */
+ left: 0;
+ top: 0;
+ width: 100%; /* Full width */
+ height: 100%; /* Full height */
+ overflow: auto; /* Enable scroll if needed */
+ background-color: rgb(0,0,0); /* Fallback color */
+ background-image: url("https://media.tenor.com/images/86eec0f7ef36bfe2f9bb71302233338c/tenor.gif"); /* Black w/ opacity */
+ background-size: cover;
+}
+/* Modal Content/Box */
+.modal-content8 {
+ background-image: url("https://us.123rf.com/450wm/skdesign/skdesign1610/skdesign161000100/65765519-azul-pantalla-completa-y-el-fondo-p%C3%BArpura-que-se-asemeja-pintura-a-la-acuarela-con-copia-espacio.jpg?ver=6");
+ background-size: cover;
+ margin: 15% auto; /* 15% from the top and centered */
+ padding: 20px;
+ border: 1px solid #5F4C0B;
+ width: 60%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+ color: #aaa;
+ float: right;
+ font-size: 28px;
+ font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+ color: black;
+ text-decoration: none;
+ cursor: pointer;
+}
+.newmodal {
+background-image: url("https://i.pinimg.com/originals/a7/b2/1d/a7b21d38d51de1d7a2e56144760b489b.gif");
+ color: #0B3861;
+ font-size:18px;
+ font-family: 'Gabriola';
+ font-weight: bold;
+ border-radius: 5px;
+ border-color: #0B6138;
+ margin-left: 35px;
+ cursor: pointer;
 }
