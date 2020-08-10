@@ -47,17 +47,17 @@ footer {
 }
 .video {
   margin-left: 50px;
-  margin-top: 0px;
+  margin-top: 10px;
   width: 200px;
   color : #170B3B;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: bold;
   font-family:'Gabriola'
 }
 .youtube {
-  height: 180px;
-  width: 120px;
-  margin-left: 70px;
+  height: 220px;
+  width: 160px;
+  margin-left: 60px;
 }
 .Libro1 {
   color: #4B088A;
@@ -154,8 +154,11 @@ margin-top: 10px;
 .contenedor {
   display: flex;
 }
-.what {
-  margin-left: 45px;
+.chronicles {
+  margin-left: 30px;
+}
+.world {
+  margin-left: 250px;
 }
 
 
@@ -504,7 +507,7 @@ background-color: #0B6138;
 }
 /* Modal Content/Box */
 .modal-content8 {
- background-image: url("https://us.123rf.com/450wm/skdesign/skdesign1610/skdesign161000100/65765519-azul-pantalla-completa-y-el-fondo-p%C3%BArpura-que-se-asemeja-pintura-a-la-acuarela-con-copia-espacio.jpg?ver=6");
+ background-image: url("https://image.freepik.com/vector-gratis/fondo-acuarela-azul-verde_1378-53.jpg");
  background-size: cover;
  margin: 15% auto; /* 15% from the top and centered */
  padding: 20px;
@@ -529,11 +532,12 @@ background-color: #0B6138;
 .newmodal {
 background-image: url("https://i.pinimg.com/originals/a7/b2/1d/a7b21d38d51de1d7a2e56144760b489b.gif");
  color: #0B3861;
- font-size:18px;
+ font-size:20px;
  font-family: 'Gabriola';
  font-weight: bold;
  border-radius: 5px;
  border-color: #0B6138;
- margin-left: 35px;
+ margin-left: 20px;
+ margin-top: 10px;
  cursor: pointer;
 }

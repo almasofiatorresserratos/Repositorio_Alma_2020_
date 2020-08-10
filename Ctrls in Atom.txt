@@ -1,0 +1,3 @@
+Ctrls in Atom:
+
+Ctrl + "F" = Looking for a word
