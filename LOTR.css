@@ -229,6 +229,9 @@ footer {
 .img3 {
   margin-left: 5px;
 }
+.tra {
+  margin-left: 100px;
+}
 
 
 
@@ -474,7 +477,7 @@ footer {
 }
 /* Modal Content/Box */
 .modal-content8 {
- background-image: url("https://media1.giphy.com/media/5bDAc3il2DySZAFGpQ/giphy.gif");
+ background-image: url("https://i.pinimg.com/originals/25/2f/17/252f17b3a6e87c5955ccd01189c1e8bc.gif");
  background-size: cover;
  margin: 15% auto; /* 15% from the top and centered */
  padding: 20px;
