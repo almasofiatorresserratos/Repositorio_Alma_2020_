@@ -6,23 +6,22 @@
     <link rel="stylesheet" href="./estilos.css">
     <script type="text/javascript" src="script.js"></script>
   </head>
-  <body background= "https://i.pinimg.com/originals/49/c9/36/49c9368c709b3b5c00c7898ffc2a7714.gif">
+  <body background= "https://cdn.pixabay.com/photo/2016/05/23/22/20/background-1411421_960_720.jpg">
     <marquee width="500px" behavior="alternate" class="tic">'Tic Tac Toe'</marquee>
     <button class="re">Reinciar</button><class="turn">Turno del jugador <span id="turnoJugador">1</span>
-       <button id="modoJugar" class="vs">Vs Me</button>
+       <button id="modoJugar" class="vs">Vs CPU</button>
     <div class="contenedor-grid">
-      <div class="elemento-grid fila columna"></div>
-      <div class="elemento-grid fila columna"></div>
-      <div class="elemento-grid fila"></div>
+      <div id="casilla1" class="elemento-grid fila columna" onclick="marcar(1);"><p></p></div>
+      <div id="casilla2" class="elemento-grid fila columna" onclick="marcar(2);"><p></p></div>
+      <div id="casilla3" class="elemento-grid fila" onclick="marcar(3);"><p></p></div>
+      <div id="casilla4" class="elemento-grid fila columna" onclick="marcar(4);"><p></p></div>
+      <div id="casilla5" class="elemento-grid fila columna" onclick="marcar(5);"><p></p></div>
+      <div id="casilla6" class="elemento-grid fila" onclick="marcar(6);"><p></p></div>
+      <div id="casilla7" class="elemento-grid columna" onclick="marcar(7);"><p></p></div>
+      <div id="casilla8" class="elemento-grid columna" onclick="marcar(8);"><p></p></div>
+      <div id="casilla9" class="elemento-grid" onclick="marcar(9);"><p></p></div>
+    </div
 
-      <div class="elemento-grid fila columna"></div>
-      <div class="elemento-grid fila columna"></div>
-      <div class="elemento-grid fila"></div>
-
-      <div class="elemento-grid columna"></div>
-      <div class="elemento-grid columna"></div>
-      <div class="elemento-grid"></div>
-    </div>
 
   </body>
 </html>

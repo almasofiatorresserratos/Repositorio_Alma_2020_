@@ -17,10 +17,10 @@
   width: 150px;
 }
 .columna {
-  border-right: solid green 3px;
+  border-right: solid purple 3px;
 }
 .fila {
-  border-bottom: solid green 3px;
+  border-bottom: solid purple 3px;
 }
 .re {
   margin-right: 1000px;
@@ -51,4 +51,16 @@
   margin-top: 0.10px;
   margin-left: 50px;
   font-size: 500px;
+}
+.casillaMorada {
+ background-image: url("https://pa1.narvii.com/6315/5445d607978e2c7c6b3f3ff0f91d46b876cbf899_hq.gif");
+ color: #0B6138;
+ text-align: center;
+ font-size: 50px;
+}
+.casillaDorada {
+  background-image: url("https://pa1.narvii.com/6315/5445d607978e2c7c6b3f3ff0f91d46b876cbf899_hq.gif");
+  color: #0B6138;
+  text-align: center;
+  font-size: 50px;
 }
