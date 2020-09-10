@@ -1,38 +1,53 @@
-//console.log("hola")
-//function marcar() {
-  //let casilla = document.getElementById("casilla1");
-  //casilla.classList.add("casillaX");
-  //casilla.childNodes[0].innerText = "X"
-  //let JugadorUnoTurno = true
-//}
- //else{
-  //   casilla.classList.add("casillaO")
-    // casilla.classList.remove("casillaJade");
-     //casilla.childNodes[0].innerText = "0";
-     //JugadorUnoTurno = true
- //}
-//}
-
-
 console.log("hola")
-function marcar() {
-  let casilla = document.getElementById("casilla1");
-  casilla.classList.add("casillaMorada");
-  casilla.childNodes[0].innerText = "X"
-console.log("Adhara Elven")
-let JugadorUnoTurno = true
+let turnoJugador = true
 
-function colorear(numero) {
+function marcar(numero) {
   let casilla = document.getElementById("casilla" + numero);
-  casilla.classList.add("casillaJade");
-  casilla.classList.remove("casillaDorada");
-  if(JugadorUnoTurno){casilla.childNodes[0].innerText = "X";
-  JugadorUnoTurno = false
+
+let conAlgo = ocupada(casilla)
+
+if(!conAlgo){
+  if(turnoJugador){
+    casilla.classList.add("casillaX");
+    casilla.classList.remove("casillaO");
+    casilla.childNodes[0].innerText= "X";
+    turnoJugador = false
 }
-  else{
-      casilla.classList.add("casillaDorada")
-      casilla.classList.remove("casillaJade");
-      casilla.childNodes[0].innerText = "0";
-      JugadorUnoTurno = true
+else {
+  casilla.classList.add("casillaO")
+  casilla.classList.remove("casillaX");
+  casilla.childNodes[0].innerText = "0";
+  turnoJugador = true
+}
+}
+}
+
+
+function ocupada(casilla) {
+  if (casilla.childNodes[0].innerText){
+    console.log("sí hay algo");
+    return true;
   }
+  else {
+    console.log("no hay nada")
+    return false;
+  }
+}
+
+function rei() {
+  limpiarCasilla (1);
+  limpiarCasilla (2);
+  limpiarCasilla (3);
+  limpiarCasilla (4);
+  limpiarCasilla (5);
+  limpiarCasilla (6);
+  limpiarCasilla (7);
+  limpiarCasilla (8);
+  limpiarCasilla (9);
+}
+function limpiarCasilla(numero) {
+  let casilla = document.getElementById ("casilla" + numero);
+  casilla.childNodes[0].innerText = "";
+  casilla.classList.remove ("casillaX");
+  casilla.classList.remove ("casillaO");
 }
