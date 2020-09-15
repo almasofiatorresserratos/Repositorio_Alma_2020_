@@ -1,5 +1,6 @@
 console.log("hola")
 let turnoJugador = true
+let copiarTablero = []
 
 function marcar(numero) {
   let casilla = document.getElementById("casilla" + numero);
@@ -11,12 +12,14 @@ if(!conAlgo){
     casilla.classList.add("casillaX");
     casilla.classList.remove("casillaO");
     casilla.childNodes[0].innerText= "X";
+    copiarTablero[numero] = "X";
     turnoJugador = false
 }
 else {
   casilla.classList.add("casillaO")
   casilla.classList.remove("casillaX");
   casilla.childNodes[0].innerText = "0";
+  copiarTablero[numero] = "0";
   turnoJugador = true
 }
 }
@@ -44,6 +47,7 @@ function rei() {
   limpiarCasilla (7);
   limpiarCasilla (8);
   limpiarCasilla (9);
+  copiarTablero = []
 }
 function limpiarCasilla(numero) {
   let casilla = document.getElementById ("casilla" + numero);
