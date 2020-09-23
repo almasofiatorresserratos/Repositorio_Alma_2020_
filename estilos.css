@@ -22,6 +22,19 @@
 .fila {
   border-bottom: solid purple 3px;
 }
+.fel {
+  font-family: cursive;
+  font-style: oblique;
+  margin-left: 400px;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-shadow: 1px 3px 10px #07190B;
+  text-decoration-style: wavy;
+  animation-delay: 1px;
+  text-shadow: 1px 1px #07190B, 2px 2px #00FF00, 3px 3px #07190B, 4px 4px #07190B;
+ color: #088A4B;
+}
 .re {
   margin-right: 1000px;
   height: 90px;
