@@ -2,6 +2,7 @@ console.log("hola")
 let turnoJugador = true
 let copiarTablero = []
 let seguirJugando = true;
+let nojugadores = 2;
 
 function marcar(numero) {
   let casilla = document.getElementById("casilla" + numero);
@@ -15,17 +16,19 @@ if (seguirJugando) {
       casilla.childNodes[0].innerText= "X";
       copiarTablero[numero - 1] = "X";
       turnoJugador = false
+      document.getElementById("turnoJugador").innerText = 2;
   }
   else {
     casilla.classList.add("casillaO")
     casilla.classList.remove("casillaX");
     casilla.childNodes[0].innerText = "0";
     copiarTablero[numero-1] = "0";
-    turnoJugador = true
+    turnoJugador = true;
+    document.getElementById("turnoJugador").innerText = 1;
       }
     if (revisarGanar()) {
       console.log("¡Ya hay ganador!");
-      seguirJugando = false
+      seguirJugando = false;
       document.getElementById("felicidades").style.display = "inline-block";
     }
     }
@@ -84,11 +87,24 @@ function rei() {
   limpiarCasilla (9);
   copiarTablero = []
   seguirJugando = true;
+  turnoJugador = true;
   document.getElementById("felicidades").style.display = "none";
+  document.getElementById("turnoJugador").innerText = 1;
 }
 function limpiarCasilla(numero) {
   let casilla = document.getElementById ("casilla" + numero);
   casilla.childNodes[0].innerText = "";
   casilla.classList.remove ("casillaX");
   casilla.classList.remove ("casillaO");
+}
+
+function vs() {
+  if (nojugadores === 2)  {
+    document.getElementById("modoJugar").innerText = "Vs Player";
+    nojugadores = 1;
+  } else {
+    document.getElementById("modoJugar").innerText = "Vs CPU";
+    nojugadores = 2;
+  }
+  rei();
 }
