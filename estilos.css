@@ -1,6 +1,7 @@
 .tic {
   color: green;
   font-style: oblique;
+  font-family: cursive;
   text-decoration: underline;
   margin-left: 400px;
   text-shadow: 1px 3px 10px blue;
@@ -47,6 +48,7 @@
   color: #B18904;
   font-size: 20px;
   font-style: oblique;
+  font-family: cursive;
 }
 .vs {
   height: 90px;
@@ -59,6 +61,7 @@
   color: #B18904;
   font-size: 20px;
   font-style: oblique;
+  font-family: cursive;
 }
 .turn {
   margin-top: 0.10px;
@@ -70,12 +73,14 @@
  color: #0B6138;
  text-align: center;
  font-size: 50px;
+ font-family: cursive;
 }
 .casillaX {
   background-image: url("https://pa1.narvii.com/6315/5445d607978e2c7c6b3f3ff0f91d46b876cbf899_hq.gif");
   color: #0B6138;
   text-align: center;
   font-size: 50px;
+  font-family: cursive;
 }
 
 #felicidades {
