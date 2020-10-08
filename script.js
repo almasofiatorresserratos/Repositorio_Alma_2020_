@@ -41,12 +41,19 @@ if (seguirJugando) {
 }
 //console.log(copiarTablero);
 function turnoCPU(){
-let numAleatorio = Math.floor(Math.random() * 9) + 1;
-console.log(numAleatorio);
-turnoJugador = false;
-marcar(numAleatorio);
-turnoJugador = true;
-//let selectCPU = document.getElementById("casilla" + numAleatorio)
+
+    let numAleatorio = Math.floor(Math.random() * 9) + 1;
+
+    let selectCPU = document.getElementById("casilla" + numAleatorio)
+
+    if(!ocupada(selectCPU)) {
+        // La casilla está libre
+        marcar(numAleatorio);
+    } else {
+       // La casilla seleccionada se encuentra ocupada
+       turnoCPU()
+    }
+
 }
 }
 function revisarGanar() {

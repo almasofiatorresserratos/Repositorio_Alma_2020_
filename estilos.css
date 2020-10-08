@@ -1,11 +1,11 @@
 .tic {
-  color: green;
+  color: #088A4B;
   font-style: oblique;
-  font-family: cursive;
+  font-family: 'Gabriola';
   text-decoration: underline;
   margin-left: 400px;
-  text-shadow: 1px 3px 10px blue;
-  font-size: 45px;
+  text-shadow: 1px 3px 10px pink;
+  font-size: 60px;
 }
 .contenedor-grid {
   display: grid;
@@ -24,17 +24,15 @@
   border-bottom: solid purple 3px;
 }
 .fel {
-  font-family: cursive;
+  font-family: 'Gabriola';
   font-style: oblique;
-  margin-left: 400px;
-  font-size: 30px;
+  margin-left: 600px;
+  font-size: 50px;
   font-weight: bold;
-  text-decoration: underline;
-  text-shadow: 1px 3px 10px #07190B;
   text-decoration-style: wavy;
   animation-delay: 1px;
-  text-shadow: 1px 1px #07190B, 2px 2px #00FF00, 3px 3px #07190B, 4px 4px #07190B;
- color: #088A4B;
+  text-shadow: 1px 3px 10px blue;
+ color: green;
 }
 .re {
   margin-right: 1000px;

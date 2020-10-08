@@ -1,0 +1,9 @@
+//console.log(copiarTablero);
+function turnoCPU(){
+let numAleatorio = Math.floor(Math.random() * 9) + 1;
+console.log(numAleatorio);
+turnoJugador = false;
+marcar(numAleatorio);
+turnoJugador = true;
+//let selectCPU = document.getElementById("casilla" + numAleatorio)
+}
