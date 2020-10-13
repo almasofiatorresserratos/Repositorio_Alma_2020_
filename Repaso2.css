@@ -1,0 +1,16 @@
+.tit {
+  font-size: 50px;
+  margin-left: 500px;
+  font-family: 'Gabriola';
+  color: #04B431;
+  text-shadow: 1px 3px 4px #F781BE;
+}
+.rock {
+  margin-left: 400px;
+}
+.paper {
+  margin-left: 50px;
+}
+.scissors {
+  margin-left: 50px;
+}
