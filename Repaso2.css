@@ -6,11 +6,27 @@
   text-shadow: 1px 3px 4px #F781BE;
 }
 .rock {
-  margin-left: 400px;
+  margin-left: 290px;
 }
 .paper {
   margin-left: 50px;
 }
 .scissors {
   margin-left: 50px;
+}
+.ju {
+  margin-left: 10px;
+}
+.dis {
+  margin-left: 230px;
+}
+.pu {
+  background-color: #A9A9F5;
+  height: 140px;
+  width: 1310px;
+  margin-left: 20px;
+  font-size: 30px;
+  text-shadow: 1px 3px 4px #4000FF;
+  font-family: 'Gabriola';
+  text-align: center;
 }
