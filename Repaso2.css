@@ -2,17 +2,67 @@
   font-size: 50px;
   margin-left: 500px;
   font-family: 'Gabriola';
-  color: #04B431;
-  text-shadow: 1px 3px 4px #F781BE;
+  color: #2A1B0A;
+  text-shadow: 1px 3px 4px #61380B;
 }
 .rock {
   margin-left: 290px;
+  background-image: url("https://assets.stickpng.com/images/5c4ee5f0bb7e2a029589d1c0.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  width: 120px;
+  height: 100px;
+  background-color: #F5DA81!important;
+}
+.rock:hover {
+ background-image: url("https://images.vexels.com/media/users/3/145874/isolated/preview/b55eccb8fb67c9fd017e5df9f47cab3e-roca-de-piedra-by-vexels.png");
+ background-size: cover;
+ background-position: center;
+ width: 120px;
+ height: 100px;
+ border-radius: 10px;
 }
 .paper {
   margin-left: 50px;
+  background-image: url("https://www.vippng.com/png/full/167-1673515_e-anche-grazie-alla-nostra-mano-se-sappiamo.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  width: 90px;
+  height: 100px;
+  background-color: #F5DA81!important;
+}
+.paper:hover {
+  margin-left: 50px;
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f2e604f8-0837-42bf-bdc7-24137870a1c1/d49ps2i-73d041fd-8939-49bc-9d10-f442aadea7b9.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvZjJlNjA0ZjgtMDgzNy00MmJmLWJkYzctMjQxMzc4NzBhMWMxXC9kNDlwczJpLTczZDA0MWZkLTg5MzktNDliYy05ZDEwLWY0NDJhYWRlYTdiOS5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.o5nx3B-LAYEJ6togL7DdYIp1q4i0H-XNpLGtPITGqRo");
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  width: 90px;
+  height: 100px;
+  background-color: #F5DA81!important;
 }
 .scissors {
   margin-left: 50px;
+  background-image: url("https://noticiasdelaciencia.com/upload/images/01_2020/212_rock-paper-scissors_scissors.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  width: 150px;
+  height: 100px;
+  background-color: #F5DA81!important;
+}
+.scissors:hover {
+  margin-left: 50px;
+  background-image: url("https://assets.stickpng.com/thumbs/58a1ea43c8dd3432c6fa81c9.png");
+  transform: rotate(180deg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  width: 150px;
+  height: 100px;
+  background-color: #F5DA81!important;
 }
 .ju {
   margin-left: 10px;
@@ -20,13 +70,15 @@
 .dis {
   margin-left: 230px;
 }
-.pu {
-  background-color: #A9A9F5;
-  height: 140px;
+.puntos {
+  background-color: #F5DA81;
+  height: 200px;
   width: 1310px;
   margin-left: 20px;
-  font-size: 30px;
-  text-shadow: 1px 3px 4px #4000FF;
+  font-size: 40px;
+  text-shadow: 2px 4px 3px #F5A9BC;
   font-family: 'Gabriola';
   text-align: center;
+  color: #21610B;
+  font-weight: bold;
 }
