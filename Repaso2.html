@@ -8,13 +8,21 @@
   </head>
   <body background= "https://i.pinimg.com/originals/44/72/c7/4472c78a922b73b13b5a132c24dfd870.jpg">
     <h1 class="tit">Piedra, papel o tijera</h1>
+    <h1 id="em">Empate</h1>
+    <h1 id="gcpu">Gana CPU</h1>
+    <h1 id="gjug">Gana jugador</h1>
     <img class="ju" src="https://images.vexels.com/media/users/3/137048/isolated/preview/64370a4a1c04a2bade31e1d46376270b-usuario-icono-de-trazo-de-persona-by-vexels.png" height="150" width="160">
-    <button class="rock" onclick="rei();" id="roca"> </button>
-    <button class="paper"> </button>
-    <button class="scissors"> </button>
+    <button class="rock" onclick="jugar(1);" id="roca"> </button>
+    <button class="paper" onclick="jugar(2);"> </button>
+    <button class="scissors" onclick="jugar(3);"> </button>
     <img class="dis" src="https://i.pinimg.com/originals/ee/2a/ad/ee2aad467a79091f929575cbe841dfbd.png" height="150" width="160">
     <div class="puntos">
-      <p>Jugador</p><p>CPU</p>
+      <div class="hu">
+        <p>Jugador</p>
+      </div>
+      <div class="cpu">
+        <p>CPU</p>
+      </div>
     </div>
   </body>
 </html>

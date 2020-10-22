@@ -81,4 +81,11 @@
   text-align: center;
   color: #21610B;
   font-weight: bold;
+  display: flex;
+}
+.hu {
+  margin-left: 50px;
+}
+.cpu {
+  margin-left: 1000px;
 }
