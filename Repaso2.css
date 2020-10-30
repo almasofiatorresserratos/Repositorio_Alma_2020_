@@ -87,5 +87,19 @@
   margin-left: 50px;
 }
 .cpu {
-  margin-left: 1000px;
+  /*margin-left: 1000px;*/
+  align: center;
+  margin-left: 350px;
+  margin-right: 250px;
+}
+.com {
+  margin-left: 200px;
+}
+.em, .gjug, .gcpu {
+  display: none;
+  font-family: 'Gabriola';
+  font-size: 15px;
+  color: #61380B;
+  margin-left: 100px;
+
 }

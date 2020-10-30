@@ -8,9 +8,7 @@
   </head>
   <body background= "https://i.pinimg.com/originals/44/72/c7/4472c78a922b73b13b5a132c24dfd870.jpg">
     <h1 class="tit">Piedra, papel o tijera</h1>
-    <h1 id="em">Empate</h1>
-    <h1 id="gcpu">Gana CPU</h1>
-    <h1 id="gjug">Gana jugador</h1>
+
     <img class="ju" src="https://images.vexels.com/media/users/3/137048/isolated/preview/64370a4a1c04a2bade31e1d46376270b-usuario-icono-de-trazo-de-persona-by-vexels.png" height="150" width="160">
     <button class="rock" onclick="jugar(1);" id="roca"> </button>
     <button class="paper" onclick="jugar(2);"> </button>
@@ -19,9 +17,22 @@
     <div class="puntos">
       <div class="hu">
         <p>Jugador</p>
+        <p id= "pj">0</p>
       </div>
       <div class="cpu">
+        <div class="em" id="em">
+          <h1>¡Empate!</h1>
+        </div>
+        <div class="gjug" id="gjug">
+          <h1>¡Gana jugador!</h1>
+        </div>
+        <div class="gcpu" id="gcpu">
+          <h1>¡Gana CPU!</h1>
+        </div>
+      </div>
+      <div class="com">
         <p>CPU</p>
+        <p id= "pc">0</p>
       </div>
     </div>
   </body>
