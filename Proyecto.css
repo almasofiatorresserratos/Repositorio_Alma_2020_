@@ -551,3 +551,113 @@ background-image: url("https://i.pinimg.com/originals/a7/b2/1d/a7b21d38d51de1d7a
  margin-top: 10px;
  cursor: pointer;
 }
+
+
+
+
+
+/* The Modal (background) */
+.modal9 {
+ display: none; /* Hidden by default */
+ position: fixed; /* Stay in place */
+ z-index: 1; /* Sit on top */
+ left: 0;
+ top: 0;
+ width: 100%; /* Full width */
+ height: 100%; /* Full height */
+ overflow: auto; /* Enable scroll if needed */
+ background-color: rgb(0,0,0); /* Fallback color */
+ background-image: url("https://i.pinimg.com/originals/64/f8/51/64f851b17cabdfbe60819756e8ff9ef8.jpg"); /* Black w/ opacity */
+ background-size: cover;
+}
+/* Modal Content/Box */
+.modal-content9 {
+ background-image: url("https://us.123rf.com/450wm/me67kz/me67kz1804/me67kz180400015/99276142-textura-de-una-vieja-hoja-de-papel-para-la-creatividad-.jpg?ver=6");
+ background-size: cover;
+ margin: 15% auto; /* 15% from the top and centered */
+ padding: 20px;
+ border: 1px solid #5F4C0B;
+ width: 60%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+ color: #aaa;
+ float: right;
+ font-size: 28px;
+ font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+ color: black;
+ text-decoration: none;
+ cursor: pointer;
+}
+.mijuego {
+background-image: url("https://wpd.ugr.es/~agamizv/wp-content/uploads/tumblr_mkyebiRyy71r4zr2vo2_r1_500.gif");
+ color: #B45F04;
+ font-size:20px;
+ font-family: 'Gabriola';
+ font-weight: bold;
+ border-radius: 5px;
+ border-color: #61380B;
+ margin-left: 20px;
+ margin-top: 10px;
+ cursor: pointer;
+}
+
+
+
+
+
+/* The Modal (background) */
+.modal10 {
+ display: none; /* Hidden by default */
+ position: fixed; /* Stay in place */
+ z-index: 1; /* Sit on top */
+ left: 0;
+ top: 0;
+ width: 100%; /* Full width */
+ height: 100%; /* Full height */
+ overflow: auto; /* Enable scroll if needed */
+ background-color: rgb(0,0,0); /* Fallback color */
+ background-image: url("https://www.ambientum.com/wp-content/uploads/2019/10/montanas-atardecer.jpg"); /* Black w/ opacity */
+ background-size: cover;
+}
+/* Modal Content/Box */
+.modal-content10 {
+ background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm218batch6-katie-21.jpg?bg=transparent&con=3&cs=srgb&dpr=1&fm=jpg&ixlib=php-3.1.0&q=65&usm=15&vib=3&w=600&s=5d3c3e1de3f1e2e70121dfdd9abbe32b");
+ background-size: cover;
+ margin: 15% auto; /* 15% from the top and centered */
+ padding: 20px;
+ border: 1px solid #5F4C0B;
+ width: 60%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+ color: #aaa;
+ float: right;
+ font-size: 28px;
+ font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+ color: black;
+ text-decoration: none;
+ cursor: pointer;
+}
+.afi {
+background-image: url("https://thumbs.gfycat.com/WeeVioletGar-max-1mb.gif");
+ color: #240B3B;
+ font-size:20px;
+ font-family: 'Gabriola';
+ font-weight: bold;
+ border-radius: 5px;
+ border-color: #61380B;
+ margin-left: 350px;
+ margin-top: 10px;
+ cursor: pointer;
+}
