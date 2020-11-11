@@ -167,14 +167,20 @@ margin-top: 10px;
   margin-left: 10px;
 }
 .arrow {
-  margin-left: 50px;
-  margin-top: 2px;
+  margin-left: 270px;
+  font-family: 'Gabriola';
+  font-size: 25px;
+  font-weight: bold;
+}
+.arrow2 {
+  /*margin-left: 270px;*/
+  font-family: 'Gabriola';
+  font-size: 25px;
 }
 .Ju {
   font-family: 'Gabriola';
   font-size: 50px;
 }
-
 
 
 
@@ -668,7 +674,94 @@ background-image: url("https://thumbs.gfycat.com/WeeVioletGar-max-1mb.gif");
  cursor: pointer;
 }
 
-.prof {
-  font-family: 'Gabriola';
-  font-size: 50;
+
+.sae {
+  margin-left: 260px;
+  background-image: url("https://www.thewhitereview.org/wp-content/uploads/2020/06/grunge-background-146356047033U.jpg");
+  background-size: cover;
+  border-radius: 10px;
+  width: 100px;
+  height: 50px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.fin {
+  margin-left: 10px;
+  background-image: url("https://www.thewhitereview.org/wp-content/uploads/2020/06/grunge-background-146356047033U.jpg");
+  background-size: cover;
+  border-radius: 10px;
+  width: 100px;
+  height: 50px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.ren {
+  margin-left: 10px;
+  background-image: url("https://www.thewhitereview.org/wp-content/uploads/2020/06/grunge-background-146356047033U.jpg");
+  background-size: cover;
+  border-radius: 10px;
+  width: 100px;
+  height: 50px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.hie {
+  margin-left: 260px;
+  background-image: url("https://www.thewhitereview.org/wp-content/uploads/2020/06/grunge-background-146356047033U.jpg");
+  background-size: cover;
+  border-radius: 10px;
+  width: 100px;
+  height: 50px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.cata {
+  margin-left: 10px;
+  background-image: url("https://www.thewhitereview.org/wp-content/uploads/2020/06/grunge-background-146356047033U.jpg");
+  background-size: cover;
+  border-radius: 10px;
+  width: 100px;
+  height: 50px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.cab {
+  margin-left: 10px;
+  background-image: url("https://www.thewhitereview.org/wp-content/uploads/2020/06/grunge-background-146356047033U.jpg");
+  background-size: cover;
+  border-radius: 10px;
+  width: 100px;
+  height: 50px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.cam {
+  margin-left: 260px;
+  background-image: url("https://www.thewhitereview.org/wp-content/uploads/2020/06/grunge-background-146356047033U.jpg");
+  background-size: cover;
+  border-radius: 10px;
+  width: 100px;
+  height: 50px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.kru {
+  margin-left: 10px;
+  background-image: url("https://www.thewhitereview.org/wp-content/uploads/2020/06/grunge-background-146356047033U.jpg");
+  background-size: cover;
+  border-radius: 10px;
+  width: 100px;
+  height: 50px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.lob {
+  margin-left: 10px;
+  background-image: url("https://www.thewhitereview.org/wp-content/uploads/2020/06/grunge-background-146356047033U.jpg");
+  background-size: cover;
+  border-radius: 10px;
+  width: 100px;
+  height: 50px;
+  font-weight: bold;
+  cursor: pointer;
 }

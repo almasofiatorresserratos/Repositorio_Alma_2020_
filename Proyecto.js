@@ -1,3 +1,10 @@
+function jugar(opUsuario) {
+  console.log(opUsuario);
+  let opCPU = Math.floor(Math.random() * 3) + 1;
+  revPuntos(opUsuario)
+}
+
+
 // When the user clicks on the button, open the modal
 function mostrar() {
  let modal = document.getElementById("myModal");
@@ -121,4 +128,19 @@ function mostrar10() {
 function ocultar10() {
  let modal = document.getElementById("myModal10");
  modal.style.display = "none";
+}
+
+
+
+
+
+if (
+  (opUsuario == 1 && opCPU == 3) ||
+  (opUsuario == 2 && opCPU == 1) ||
+  (opUsuario == 3 && opCPU == 2)
+) {
+  document.getElementById("gjug").style.display = "block";
+  document.getElementById("gcpu").style.display = "none";
+  document.getElementById("em").style.display = "none";
+  document.getElementById("pj").innerText = pusu += 1;
 }
