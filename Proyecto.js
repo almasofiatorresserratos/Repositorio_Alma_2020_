@@ -1,7 +1,15 @@
-function jugar(opUsuario) {
-  console.log(opUsuario);
-  let opCPU = Math.floor(Math.random() * 3) + 1;
-  revPuntos(opUsuario)
+let respuestas = ['c', 'b', 'a', 'c', 'a', 'c', 'b', 'c', 'a', 'c'] //poner dentro todas las respuestas
+
+
+function jugar(position, respuesta) {
+  console.log(position);
+  console.log(respuesta);
+  if (respuestas[position] == respuesta) {
+    console.log('correcto')
+  }
+  else {
+    console.log('incorrecto');
+  }
 }
 
 
@@ -134,13 +142,14 @@ function ocultar10() {
 
 
 
-if (
-  (opUsuario == 1 && opCPU == 3) ||
-  (opUsuario == 2 && opCPU == 1) ||
-  (opUsuario == 3 && opCPU == 2)
-) {
-  document.getElementById("gjug").style.display = "block";
-  document.getElementById("gcpu").style.display = "none";
-  document.getElementById("em").style.display = "none";
-  document.getElementById("pj").innerText = pusu += 1;
-}
+
+// if (
+//   (opUsuario == 1 && opCPU == 3) ||
+//   (opUsuario == 2 && opCPU == 1) ||
+//   (opUsuario == 3 && opCPU == 2)
+// ) {
+//   document.getElementById("gjug").style.display = "block";
+//   document.getElementById("gcpu").style.display = "none";
+//   document.getElementById("em").style.display = "none";
+//   document.getElementById("pj").innerText = pusu += 1;
+// }
