@@ -178,8 +178,15 @@ margin-top: 10px;
   font-size: 25px;
 }
 .Ju {
-  font-family: 'Gabriola';
+  font-family: 'Brush Script MT';
   font-size: 50px;
+}
+.in {
+  font-size: 20px;
+  font-family: 'Candara';
+  font-weight: bold;
+  font-style: oblique;
+  color: black;
 }
 
 
@@ -524,12 +531,12 @@ background-color: #0B6138;
  height: 100%; /* Full height */
  overflow: auto; /* Enable scroll if needed */
  background-color: rgb(0,0,0); /* Fallback color */
- background-image: url("https://media.tenor.com/images/86eec0f7ef36bfe2f9bb71302233338c/tenor.gif"); /* Black w/ opacity */
+ background-image: url("https://i.pinimg.com/originals/0e/8b/0e/0e8b0ef7fff7f41b64171bdedb5e9743.gif"); /* Black w/ opacity */
  background-size: cover;
 }
 /* Modal Content/Box */
 .modal-content8 {
- background-image: url("https://image.freepik.com/vector-gratis/fondo-acuarela-azul-verde_1378-53.jpg");
+ background-image: url("https://www.thewhitereview.org/wp-content/uploads/2020/06/grunge-background-146356047033U.jpg");
  background-size: cover;
  margin: 15% auto; /* 15% from the top and centered */
  padding: 20px;
@@ -665,7 +672,7 @@ background-image: url("https://media.giphy.com/media/l1BgSQtCR1VjnBHb2/giphy.gif
 background-image: url("https://i.pinimg.com/originals/8e/59/d4/8e59d4eebf30d083e2b5d7bc89f38e73.gif");
  color: #240B3B;
  font-size:30px;
- font-family: 'Gabriola';
+ font-family: 'Brush Script MT';
  font-weight: bold;
  border-radius: 5px;
  border-color: #61380B;
