@@ -1,4 +1,5 @@
-let respuestas = ['c', 'b', 'a', 'c', 'a', 'c', 'b', 'c', 'a', 'c'] //poner dentro todas las respuestas
+let respuestas = ['c', 'b', 'a', 'c', 'a', 'c', 'b', 'c', 'a', 'c'];
+let puntaje = 0;
 
 
 function jugar(position, respuesta) {
@@ -6,12 +7,16 @@ function jugar(position, respuesta) {
   console.log(respuesta);
   if (respuestas[position] == respuesta) {
     console.log('correcto')
+    puntaje += 1;
+    document.getElementById("points").innerText = puntaje;
   }
   else {
     console.log('incorrecto');
   }
+  document.getElementById("preg"+position+"-a").disabled = "true";
+  document.getElementById("preg"+position+"-b").disabled = "true";
+  document.getElementById("preg"+position+"-c").disabled = "true";
 }
-
 
 // When the user clicks on the button, open the modal
 function mostrar() {
@@ -128,8 +133,10 @@ function ocultar9() {
 
 // When the user clicks on the button, open the modal
 function mostrar10() {
- let modal = document.getElementById("myModal10");
- modal.style.display = "block";
+  puntaje = 0
+  document.getElementById("points").innerText = puntaje;
+  let modal = document.getElementById("myModal10");
+  modal.style.display = "block";
 }
 
 // When the user clicks on <span> (x), close the modal

@@ -54,58 +54,60 @@
                       <!-- Modal content -->
                       <div class="modal-content10">
                         <span class="close" onclick="ocultar10();">&times;</span>
+                        <p>puntos: <span id="points">0</span></p>
+                        <p class="ins">|ï| Una vez que hayas elegido una respuesta, todas se bloquearán y no podrás volver a contestar esa pregunta. Un pequeño cuadro que irá a lado del cursor contará tus puntos, así que ¡Éxito!</p>
                         <p class="arrow2"> <|1|> En el libro, ¿Quién cita por primera vez esta profecía?</p>
-                        <p class="arrow">En lo más profundo, la visión ahogada...</p>
-                        <p class="arrow">en lo más antiguo, el mordisco de piedra...</p>
-                        <p class="arrow">en lo más frío, la luz más oscura.</p>
-                        <button class="sae" onclick="jugar(0, 'a');">Saeunn</button>
-                        <button class="fin" onclick="jugar(0, 'b');">Fin-Kedinn</button>
-                        <button class="ren" onclick="jugar(0, 'c');">Renn</button>
+                        <p class="arrow"> ¨En lo más profundo, la visión ahogada</p>
+                        <p class="arrow">  en lo más antiguo, el mordisco de piedra</p>
+                        <p class="arrow">  en lo más frío, la luz más oscura.¨</p>
+                        <button class="sae" id="preg0-a" onclick="jugar(0, 'a');">Saeunn</button>
+                        <button class="fin" id="preg0-b" onclick="jugar(0, 'b');">Fin-Kedinn</button>
+                        <button class="ren" id="preg0-c" onclick="jugar(0, 'c');">Renn</button>
 
                         <p class="arrow2"> <|2|> ¿Cuál era el nombre del lugar donde Torak halló la primera parte del Nanuak?</p>
-                        <button class="hie" onclick="jugar(1, 'a');">El Río de Hielo</button>
-                        <button class="cata" onclick="jugar(1, 'b');">Cataratas del Trueno</button>
-                        <button class="cab" onclick="jugar(1, 'c');">Lago Cabeza de Hacha</button>
+                        <button class="hie" id="preg1-a" onclick="jugar(1, 'a');">El Río de Hielo</button>
+                        <button class="cata" id="preg1-b" onclick="jugar(1, 'b');">Cataratas del Trueno</button>
+                        <button class="cab" id="preg1-c" onclick="jugar(1, 'c');">Lago Cabeza de Hacha</button>
 
                         <p class="arrow2"> <|3|> ¿Quién les dijo a Torak y a Renn dónde hallar la segunda parte del Nanuak?</p>
-                        <button class="cam" onclick="jugar(2, 'a');">Caminante</button>
-                        <button class="kru" onclick="jugar(2, 'b');">Krukoslik</button>
-                        <button class="lob" onclick="jugar(2, 'c');">Lobo</button>
+                        <button class="cam" id="preg2-a" onclick="jugar(2, 'a');">Caminante</button>
+                        <button class="kru" id="preg2-b" onclick="jugar(2, 'b');">Krukoslik</button>
+                        <button class="lob" id="preg2-c" onclick="jugar(2, 'c');">Lobo</button>
 
                         <p class="arrow2"> <|4|> ¿Qué era la tercera parte del Nanuak?</p>
-                        <button class="bol" onclick="jugar(3, 'a');">Una bolsa de yesca</button>
-                        <button class="ant" onclick="jugar(3, 'b');">Una antorcha</button>
-                        <button class="lam" onclick="jugar(3, 'c');">Una lámpara de piedra</button>
+                        <button class="bol" id="preg3-a" onclick="jugar(3, 'a');">Una bolsa de yesca</button>
+                        <button class="ant" id="preg3-b" onclick="jugar(3, 'b');">Una antorcha</button>
+                        <button class="lam" id="preg3-c" onclick="jugar(3, 'c');">Una lámpara de piedra</button>
 
                         <p class="arrow2"> <|5|> ¿A qué lugar se tenían que llevar las tres partes del Nanuak?</p>
-                        <button class="Mon" onclick="jugar(4, 'a');">A la Montaña del Espíritu del Mundo</button>
-                        <button class="Par" onclick="jugar(4, 'b');">A los Páramos Altos</button>
-                        <button class="Fan" onclick="jugar(4, 'c');">A la Montaña de los Fantasmas</button>
+                        <button class="Mon" id="preg4-a" onclick="jugar(4, 'a');">A la Montaña del Espíritu del Mundo</button>
+                        <button class="Par" id="preg4-b" onclick="jugar(4, 'b');">A los Páramos Altos</button>
+                        <button class="Fan" id="preg4-c" onclick="jugar(4, 'c');">A la Montaña de los Fantasmas</button>
 
                         <p class="arrow2"> <|6|> ¿Quién era el guía de Torak y Renn en la búsqueda del Nanuak?</p>
-                        <button class="lie" onclick="jugar(5, 'a');">Krukoslik</button>
-                        <button class="rat" onclick="jugar(5, 'b');">Narik</button>
-                        <button class="lob" onclick="jugar(5, 'c');">Lobo</button>
+                        <button class="lie" id="preg5-a" onclick="jugar(5, 'a');">Krukoslik</button>
+                        <button class="rat" id="preg5-b" onclick="jugar(5, 'b');">Narik</button>
+                        <button class="lob" id="preg5-c" onclick="jugar(5, 'c');">Lobo</button>
 
                         <p class="arrow2"> <|7|> ¿Para qué Torak buscaba el Nanuak?</p>
-                        <button class="pod" onclick="jugar(6, 'a');">Para superar al demonio oso</button>
-                        <button class="bos" onclick="jugar(6, 'b');">Para salvar del mal al Bosque</button>
-                        <button class="pad" onclick="jugar(6, 'c');">Para revivir con su poder a su padre</button>
+                        <button class="pod" id="preg6-a" onclick="jugar(6, 'a');">Para superar al demonio oso</button>
+                        <button class="bos" id="preg6-b" onclick="jugar(6, 'b');">Para salvar del mal al Bosque</button>
+                        <button class="pad" id="preg6-c" onclick="jugar(6, 'c');">Para revivir con su poder a su padre</button>
 
                         <p class="arrow2"> <|8|>¿Quién le dijo a Torak cómo partir hacia la Montaña que buscaba?</p>
-                        <button class="nut" onclick="jugar(7, 'a');">El Caminante, Clan Nutria</button>
-                        <button class="cue" onclick="jugar(7, 'b');">Krukoslik, Clan Ciervo Rojo</button>
-                        <button class="alp" onclick="jugar(7, 'c');">Krukoslik, Clan Liebre Alpina</button>
+                        <button class="nut" id="preg7-a" onclick="jugar(7, 'a');">El Caminante, Clan Nutria</button>
+                        <button class="cue" id="preg7-b" onclick="jugar(7, 'b');">Krukoslik, Clan Ciervo Rojo</button>
+                        <button class="alp" id="preg7-c" onclick="jugar(7, 'c');">Krukoslik, Clan Liebre Alpina</button>
 
                         <p class="arrow2"> <|9|>¿Cómo era mencionado Torak en las profecías?</p>
-                        <button class="esc" onclick="jugar(8, 'a');">El Que Escucha</button>
-                        <button class="hab" onclick="jugar(8, 'b');">El Que Entiende</button>
-                        <button class="ve" onclick="jugar(8, 'c');">El Que Predice</button>
+                        <button class="esc" id="preg8-a" onclick="jugar(8, 'a');">El Que Escucha</button>
+                        <button class="hab" id="preg8-b" onclick="jugar(8, 'b');">El Que Entiende</button>
+                        <button class="ve" id="preg8-c" onclick="jugar(8, 'c');">El Que Predice</button>
 
                         <p class="arrow2"> <|10|>¿Quién era Lobo?</p>
-                        <button class="caz" onclick="jugar(9, 'a');">El perro de caza de Torak</button>
-                        <button class="cap" onclick="jugar(9, 'b');">El lobezno que Torak capturó</button>
-                        <button class="her" onclick="jugar(9, 'c');">El lobezno hermano de Torak</button>
+                        <button class="caz" id="preg9-a" onclick="jugar(9, 'a');">El perro de caza de Torak</button>
+                        <button class="cap" id="preg9-b" onclick="jugar(9, 'b');">El lobezno que Torak capturó</button>
+                        <button class="her" id="preg9-c" onclick="jugar(9, 'c');">El lobezno hermano de Torak</button>
                       </div>
                     </div>
                   </div>

@@ -168,9 +168,8 @@ margin-top: 10px;
 }
 .arrow {
   margin-left: 270px;
-  font-family: 'Gabriola';
+  font-family: 'Brush Script MT';
   font-size: 25px;
-  font-weight: bold;
 }
 .arrow2 {
   /*margin-left: 270px;*/
@@ -679,6 +678,11 @@ background-image: url("https://i.pinimg.com/originals/8e/59/d4/8e59d4eebf30d083e
  margin-left: 330px;
  margin-top: 10px;
  cursor: pointer;
+}
+.ins {
+  font-family: 'Gabriola';
+  font-size: 25px;
+  font-weight: bold;
 }
 
 
