@@ -18,6 +18,7 @@ function jugar(position, respuesta) {
   document.getElementById("preg"+position+"-c").disabled = "true";
 }
 
+
 // When the user clicks on the button, open the modal
 function mostrar() {
  let modal = document.getElementById("myModal");
@@ -147,16 +148,6 @@ function ocultar10() {
 
 
 
-
-
-
-// if (
-//   (opUsuario == 1 && opCPU == 3) ||
-//   (opUsuario == 2 && opCPU == 1) ||
-//   (opUsuario == 3 && opCPU == 2)
-// ) {
-//   document.getElementById("gjug").style.display = "block";
-//   document.getElementById("gcpu").style.display = "none";
-//   document.getElementById("em").style.display = "none";
-//   document.getElementById("pj").innerText = pusu += 1;
-// }
+function rei() {
+  
+}

@@ -166,6 +166,26 @@ margin-top: 10px;
 .adv {
   margin-left: 10px;
 }
+.re {
+  margin-left: 600px;
+  border: 1px solid #0B614B;
+  font-family: 'Gabriola';
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 20px;
+  background: url("https://i.pinimg.com/originals/bf/7f/2f/bf7f2f17169b54b0d200f0c11fd345fc.gif");
+  cursor: pointer;
+  font-weight: bold;
+  font-size:20px;
+  border-radius: 5px;
+  border-color: #0B2F3A;
+}
+.count {
+  font-family: 'Gabriola';
+  font-size: 20px;
+  font-weight: bold;
+  font-style: oblique;
+}
 .arrow {
   margin-left: 270px;
   font-family: 'Brush Script MT';
@@ -669,15 +689,16 @@ background-image: url("https://media.giphy.com/media/l1BgSQtCR1VjnBHb2/giphy.gif
 }
 .afi {
 background-image: url("https://i.pinimg.com/originals/8e/59/d4/8e59d4eebf30d083e2b5d7bc89f38e73.gif");
- color: #240B3B;
- font-size:30px;
- font-family: 'Brush Script MT';
- font-weight: bold;
- border-radius: 5px;
- border-color: #61380B;
- margin-left: 330px;
- margin-top: 10px;
- cursor: pointer;
+background-size: cover;
+color: #240B3B;
+font-size:30px;
+font-family: 'Brush Script MT';
+font-weight: bold;
+border-radius: 5px;
+border-color: #5858FA;
+margin-left: 330px;
+margin-top: 10px;
+cursor: pointer;
 }
 .ins {
   font-family: 'Gabriola';
