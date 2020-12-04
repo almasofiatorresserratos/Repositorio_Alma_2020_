@@ -3,15 +3,15 @@ let puntaje = 0;
 
 
 function jugar(position, respuesta) {
-  console.log(position);
-  console.log(respuesta);
+  // console.log(position);
+  // console.log(respuesta);
   if (respuestas[position] == respuesta) {
-    console.log('correcto')
+    // console.log('correcto')
     puntaje += 1;
     document.getElementById("points").innerText = puntaje;
   }
   else {
-    console.log('incorrecto');
+    // console.log('incorrecto');
   }
   document.getElementById("preg"+position+"-a").disabled = "true";
   document.getElementById("preg"+position+"-b").disabled = "true";
@@ -134,10 +134,9 @@ function ocultar9() {
 
 // When the user clicks on the button, open the modal
 function mostrar10() {
-  puntaje = 0
-  document.getElementById("points").innerText = puntaje;
   let modal = document.getElementById("myModal10");
   modal.style.display = "block";
+  rei()
 }
 
 // When the user clicks on <span> (x), close the modal
@@ -149,5 +148,12 @@ function ocultar10() {
 
 
 function rei() {
-  
+  puntaje = 0
+  document.getElementById("points").innerText = puntaje;
+  for(let valor = 0; valor < 10; valor++){
+    // console.log(valor)
+    document.getElementById("preg"+valor+"-a").disabled = false;
+    document.getElementById("preg"+valor+"-b").disabled = false;
+    document.getElementById("preg"+valor+"-c").disabled = false;
+  }
 }
