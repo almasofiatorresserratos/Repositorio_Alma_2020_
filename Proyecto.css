@@ -1,5 +1,5 @@
 nav {
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRDOmpV1FR_CvzqJ4jh6LVXP9G8LsRTMxugCtdbZGYe5sc1909W"); height: 20px; width: 1220px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRDOmpV1FR_CvzqJ4jh6LVXP9G8LsRTMxugCtdbZGYe5sc1909W"); height: 20px; width: 1260px;
   margin-left: 40px;
 }
 a {
@@ -13,24 +13,24 @@ a {
 main {
   display: inline-block;
   margin-top: 0px;
-  background-image: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/organic-green-abstract-watercolor-wash-irina-sztukowski.jpg"); height: 530px; width: 940px;
+  background-image: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/organic-green-abstract-watercolor-wash-irina-sztukowski.jpg"); height: 530px; width: 980px;
   background-size: cover;
 }
 
 section {
-  background-image: url("https://www.wallpaperup.com/uploads/wallpapers/2012/10/02/17687/abeffff34d678a0f62a7dbfbd5e2def3.jpg"); height:230px; width: 930px;
+  background-image: url("https://www.wallpaperup.com/uploads/wallpapers/2012/10/02/17687/abeffff34d678a0f62a7dbfbd5e2def3.jpg"); height:230px; width: 960px;
   background-size: cover;
   margin-top: 20px;
   margin-left: 5px;
 }
 article {
-  background-image: url("https://c1.wallpaperflare.com/preview/634/494/424/blue-overseas-sea-depth.jpg"); height: 210px; width: 650px;
+  background-image: url("https://c1.wallpaperflare.com/preview/634/494/424/blue-overseas-sea-depth.jpg"); height: 210px; width: 660px;
   background-size: cover;
   margin-left: 200px;
   margin-top: 50px;
 }
 footer {
-  background-image: url("https://i.pinimg.com/originals/bd/4a/bc/bd4abc4d109f49788aa816aa702f3bb7.jpg"); height: 70px; width: 1210px;
+  background-image: url("https://i.pinimg.com/originals/bd/4a/bc/bd4abc4d109f49788aa816aa702f3bb7.jpg"); height: 70px; width: 1250px;
   background-size: cover;
   margin-left: 40px;
   padding-right: 10px;
@@ -163,6 +163,11 @@ margin-top: 10px;
   font-style: oblique;
   height: 30px;
   width: 90px;
+  position: fixed;
+  text-align: center;
+  word-wrap: break-word;
+  margin-left: 700px;
+  border-radius: 10px;
   background: url("https://i.pinimg.com/originals/bf/7f/2f/bf7f2f17169b54b0d200f0c11fd345fc.gif");
 }
 .arrow {
@@ -209,6 +214,14 @@ margin-top: 10px;
 .lseis {
   margin-top: 5px;
   margin-left: 60px;
+}
+.back {
+  color: black;
+  font-family: 'Gabriola';
+  font-size: 20px;
+  text-shadow: 1px 3px 13px #29088A;
+  margin-left: 550px;
+  font-weight: bold;
 }
 
 
@@ -258,6 +271,8 @@ margin-top: 10px;
   margin-left: 25px;
   border: 0px;
   cursor: pointer;
+  color: #0A2A0A;
+  font-weight: bold;
 }
 
 
@@ -304,6 +319,8 @@ margin-top: 10px;
   background-color: transparent;
   margin-left: 25px;
   border: 0px;
+  color: #0A2A0A;
+  font-weight: bold;
 }
 
 
@@ -350,6 +367,8 @@ margin-top: 10px;
   background-color: transparent;
   margin-left: 5px;
   border: 0px;
+  color: #0A2A0A;
+  font-weight: bold;
 }
 
 
@@ -394,9 +413,10 @@ margin-top: 10px;
 } */
 .bmodal {
 background-color: #0B6138;
- color: #A9F5A9;
+ color: #0A2A0A;
+ font-weight: bold;
  font-size:15px;
- font-family: Gabriola;
+ font-family: 'Gabriola';
  border-radius: 5px;
  border-color: #0B6138;
  margin-left: 25px;
@@ -444,9 +464,10 @@ background-color: #0B6138;
 } */
 .bmodal {
 background-color: #0B6138;
- color: #A9F5A9;
+ color: #0A2A0A;
+ font-weight: bold;
  font-size:15px;
- font-family: Gabriola;
+ font-family: 'Gabriola';
  border-radius: 5px;
  border-color: #0B6138;
  margin-left: 25px;
@@ -494,9 +515,10 @@ background-color: #0B6138;
 } */
 .bmodal {
 background-color: #0B6138;
- color: #A9F5A9;
+ color: #0A2A0A;
+ font-weight: bold;
  font-size:15px;
- font-family: Gabriola;
+ font-family: 'Gabriola';
  border-radius: 5px;
  border-color: #0B6138;
  margin-left: 25px;
@@ -545,7 +567,8 @@ background-color: #0B6138;
 } */
 .bmodal {
 background-color: #0B6138;
- color: #A9F5A9;
+ color: #0A2A0A;
+ font-weight: bold;
  font-family: 'Gabriola';
  font-size: 19px;
  border-radius: 5px;
@@ -598,7 +621,7 @@ background-color: #0B6138;
 } */
 .newmodal {
 background-image: url("https://i.makeagif.com/media/8-06-2018/2yYoLB.gif");
- color: #81F7F3;
+ color: #819FF7;
  font-size:20px;
  font-family: 'Gabriola';
  font-weight: bold;
@@ -654,7 +677,7 @@ background-image: url("https://i.makeagif.com/media/8-06-2018/2yYoLB.gif");
 } */
 .mijuego {
 background-image: url("https://media.giphy.com/media/l1BgSQtCR1VjnBHb2/giphy.gif");
- color: #58FA82;
+ color: #F5BCA9;
  font-weight: bold;
  font-size:20px;
  font-family: 'Gabriola';
